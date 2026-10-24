@@ -38,8 +38,8 @@
         "ar.nacho.videobuscador.tv",
         "ar.nacho.videobuscador.tv.web"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v1.0.0-web"
     },
     {
       "id": "androidtv-control",
@@ -129,8 +129,8 @@
         "ar.nacho.vozatexto",
         "ar.nacho.vozatexto.tv"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/vozatexto-v1.2.0-web"
     },
     {
       "id": "iptv-publico",
@@ -150,8 +150,8 @@
         "ar.nacho.retoca",
         "ar.nacho.retoca.web"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v0.3.0-web/Retoca-0.3.0-web.apk"
     }
   ]
 }
