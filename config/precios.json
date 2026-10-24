@@ -73,8 +73,8 @@
         "ar.nacho.mesa",
         "ar.nacho.mesa.web"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.0-web/Mesa-1.1.0-web.apk"
     },
     {
       "id": "consola-tv",
