@@ -84,8 +84,8 @@
         "ar.nacho.consolatv",
         "ar.nacho.consolatv.web"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/consola-tv-v1.1.0-web/ConsolaTV-1.1.0-web.apk"
     },
     {
       "id": "gordi",
