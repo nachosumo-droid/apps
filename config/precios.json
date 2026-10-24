@@ -2,7 +2,7 @@
   "_LEEME": "PRECIOS PROVISORIOS (placeholder) en pesos argentinos: CONFIRMAR antes de activar ventas. Editar sólo este archivo.",
   "moneda": "ARS",
   "ventasActivas": false,
-  "servidorLicencias": "https://licencias-apps.TU-SUBDOMINIO.workers.dev",
+  "servidorLicencias": "https://licencias-apps.nachosumo.workers.dev",
   "contacto": {
     "github": "https://github.com/nachosumo-droid/apps/issues",
     "email": ""
@@ -34,7 +34,9 @@
       "precioARS": 5999,
       "paquetes": [
         "ar.nacho.videobuscador",
-        "ar.nacho.videobuscador.tv"
+        "ar.nacho.videobuscador.web",
+        "ar.nacho.videobuscador.tv",
+        "ar.nacho.videobuscador.tv.web"
       ],
       "venta": true,
       "descarga": ""
@@ -45,6 +47,7 @@
       "precioARS": 4999,
       "paquetes": [
         "ar.nacho.tvcontrol",
+        "ar.nacho.tvcontrol.web",
         "ar.nacho.autolimpieza"
       ],
       "venta": true,
@@ -56,6 +59,7 @@
       "precioARS": 4999,
       "paquetes": [
         "ar.nacho.camaraip",
+        "ar.nacho.camaraip.web",
         "ar.nacho.camaraipvisor"
       ],
       "venta": true,
@@ -66,7 +70,8 @@
       "nombre": "Mesa",
       "precioARS": 3999,
       "paquetes": [
-        "ar.nacho.mesa"
+        "ar.nacho.mesa",
+        "ar.nacho.mesa.web"
       ],
       "venta": true,
       "descarga": ""
@@ -76,7 +81,8 @@
       "nombre": "Consola TV",
       "precioARS": 3999,
       "paquetes": [
-        "ar.nacho.consolatv"
+        "ar.nacho.consolatv",
+        "ar.nacho.consolatv.web"
       ],
       "venta": true,
       "descarga": ""
@@ -86,7 +92,8 @@
       "nombre": "Gordi",
       "precioARS": 2999,
       "paquetes": [
-        "ar.nacho.mascota"
+        "ar.nacho.mascota",
+        "ar.nacho.mascota.web"
       ],
       "venta": true,
       "descarga": ""
@@ -96,7 +103,8 @@
       "nombre": "Gordi Adultos",
       "precioARS": 3999,
       "paquetes": [
-        "ar.nacho.gordi.adultos"
+        "ar.nacho.gordi.adultos",
+        "ar.nacho.gordi.adultos.web"
       ],
       "venta": true,
       "descarga": ""
@@ -107,6 +115,7 @@
       "precioARS": 3999,
       "paquetes": [
         "ar.nacho.touchpad",
+        "ar.nacho.touchpad.web",
         "ar.nacho.touchpad.tv"
       ],
       "venta": true,
@@ -138,7 +147,8 @@
       "nombre": "Retoca",
       "precioARS": 5999,
       "paquetes": [
-        "ar.nacho.retoca"
+        "ar.nacho.retoca",
+        "ar.nacho.retoca.web"
       ],
       "venta": true,
       "descarga": ""
