@@ -118,8 +118,8 @@
         "ar.nacho.touchpad.web",
         "ar.nacho.touchpad.tv"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.2.0-web/TouchPad-celular-1.2.0-web.apk"
     },
     {
       "id": "vozatexto",
