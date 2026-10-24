@@ -1,4 +1,4 @@
-# Apps TV — sitio oficial
+# NachoSumoSoft — sitio oficial
 
 Sitio estático (GitHub Pages). Sólo archivos del sitio: **no** contiene código de las apps, claves ni APKs.
 
