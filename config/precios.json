@@ -106,8 +106,8 @@
         "ar.nacho.gordi.adultos",
         "ar.nacho.gordi.adultos.web"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-adultos-v1.0.0-web/GordiAdultos-1.0.0-web.apk"
     },
     {
       "id": "touchpad",
