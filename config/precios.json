@@ -50,8 +50,8 @@
         "ar.nacho.tvcontrol.web",
         "ar.nacho.autolimpieza"
       ],
-      "venta": false,
-      "descarga": ""
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.0-web/AndroidTV-Control-celular-1.1.0-web.apk"
     },
     {
       "id": "camaraip",
