@@ -1,0 +1,147 @@
+{
+  "_LEEME": "PRECIOS PROVISORIOS (placeholder) en pesos argentinos: CONFIRMAR antes de activar ventas. Editar sólo este archivo.",
+  "moneda": "ARS",
+  "ventasActivas": false,
+  "servidorLicencias": "https://licencias-apps.TU-SUBDOMINIO.workers.dev",
+  "contacto": {
+    "github": "https://github.com/nachosumo-droid/apps/issues",
+    "email": ""
+  },
+  "apps": [
+    {
+      "id": "launcher-tv",
+      "nombre": "Launcher TV",
+      "precioARS": 9999,
+      "paquetes": [
+        "ar.nacho.launcher"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "launcher-tv-lite",
+      "nombre": "Launcher TV Lite",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.launcher.lite"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "buscador-videos",
+      "nombre": "Buscador de Videos",
+      "precioARS": 5999,
+      "paquetes": [
+        "ar.nacho.videobuscador",
+        "ar.nacho.videobuscador.tv"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "androidtv-control",
+      "nombre": "AndroidTV Control",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.tvcontrol",
+        "ar.nacho.autolimpieza"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "camaraip",
+      "nombre": "CamaraIP",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.camaraip",
+        "ar.nacho.camaraipvisor"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "mesa",
+      "nombre": "Mesa",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.mesa"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "consola-tv",
+      "nombre": "Consola TV",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.consolatv"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "gordi",
+      "nombre": "Gordi",
+      "precioARS": 2999,
+      "paquetes": [
+        "ar.nacho.mascota"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "gordi-adultos",
+      "nombre": "Gordi Adultos",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.gordi.adultos"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "touchpad",
+      "nombre": "TouchPad",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.touchpad",
+        "ar.nacho.touchpad.tv"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "vozatexto",
+      "nombre": "VozATexto",
+      "precioARS": 6999,
+      "paquetes": [
+        "ar.nacho.vozatexto",
+        "ar.nacho.vozatexto.tv"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "iptv-publico",
+      "nombre": "IPTV Público",
+      "precioARS": 2999,
+      "paquetes": [
+        "ar.publiciptv.player"
+      ],
+      "venta": true,
+      "descarga": ""
+    },
+    {
+      "id": "retoca",
+      "nombre": "Retoca",
+      "precioARS": 5999,
+      "paquetes": [
+        "ar.nacho.retoca"
+      ],
+      "venta": true,
+      "descarga": ""
+    }
+  ]
+}
