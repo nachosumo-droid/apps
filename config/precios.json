@@ -1,7 +1,7 @@
 {
   "_LEEME": "PRECIOS PROVISORIOS (placeholder) en pesos argentinos: CONFIRMAR antes de activar ventas. Editar sólo este archivo.",
   "moneda": "ARS",
-  "ventasActivas": false,
+  "ventasActivas": true,
   "servidorLicencias": "https://licencias-apps.nachosumo.workers.dev",
   "contacto": {
     "github": "https://github.com/nachosumo-droid/apps/issues",
@@ -16,7 +16,7 @@
         "ar.nacho.launcher"
       ],
       "venta": true,
-      "descarga": ""
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.1.0-web/LauncherTV-1.1.0-web.apk"
     },
     {
       "id": "launcher-tv-lite",
@@ -25,7 +25,7 @@
       "paquetes": [
         "ar.nacho.launcher.lite"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -38,7 +38,7 @@
         "ar.nacho.videobuscador.tv",
         "ar.nacho.videobuscador.tv.web"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -50,7 +50,7 @@
         "ar.nacho.tvcontrol.web",
         "ar.nacho.autolimpieza"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -62,7 +62,7 @@
         "ar.nacho.camaraip.web",
         "ar.nacho.camaraipvisor"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -73,7 +73,7 @@
         "ar.nacho.mesa",
         "ar.nacho.mesa.web"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -84,7 +84,7 @@
         "ar.nacho.consolatv",
         "ar.nacho.consolatv.web"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -95,7 +95,7 @@
         "ar.nacho.mascota",
         "ar.nacho.mascota.web"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -106,7 +106,7 @@
         "ar.nacho.gordi.adultos",
         "ar.nacho.gordi.adultos.web"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -118,7 +118,7 @@
         "ar.nacho.touchpad.web",
         "ar.nacho.touchpad.tv"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -129,7 +129,7 @@
         "ar.nacho.vozatexto",
         "ar.nacho.vozatexto.tv"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -139,7 +139,7 @@
       "paquetes": [
         "ar.publiciptv.player"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     },
     {
@@ -150,7 +150,7 @@
         "ar.nacho.retoca",
         "ar.nacho.retoca.web"
       ],
-      "venta": true,
+      "venta": false,
       "descarga": ""
     }
   ]

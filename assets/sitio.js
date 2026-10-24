@@ -8,7 +8,8 @@
  if(cfg.contacto&&cfg.contacto.email)for(const el of document.querySelectorAll("[data-email]")){el.href="mailto:"+cfg.contacto.email;el.textContent=cfg.contacto.email;el.parentElement.hidden=false}
  for(const b of document.querySelectorAll("[data-comprar]")){
   b.addEventListener("click",e=>{e.preventDefault();const m=document.getElementById("msg-compra");
-   m.hidden=false;m.textContent=cfg.ventasActivas
+   const a=cfg.apps.find(x=>x.id===b.dataset.comprar);
+   m.hidden=false;m.textContent=(cfg.ventasActivas&&a&&a.venta)
     ?"Para comprar: instalá la prueba gratis, abrí la app y elegí «Activar» → «Comprar con Mercado Pago». La licencia queda atada a tu equipo y se activa sola al pagar."
-    :"Las compras todavía no están habilitadas. Muy pronto vas a poder pagar con Mercado Pago desde la app. Mientras tanto, probala gratis."})}
+    :"Esta app todavía no está a la venta. Muy pronto vas a poder probarla y comprarla desde acá."})}
 })();
