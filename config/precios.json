@@ -30,6 +30,16 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/nacer-v1.7.1-web"
     },
     {
+      "id": "agenda-digital-90s",
+      "nombre": "Agenda Digital 90s",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.agenda90s.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/agenda-digital-90s-v1.1.1-web/Agenda-Digital-90s-1.1.1-web.apk"
+    },
+    {
       "id": "launcher-tv-lite",
       "nombre": "Launcher TV Lite",
       "precioARS": 4999,
