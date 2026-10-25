@@ -29,6 +29,16 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.1-web/LauncherTV-Lite-1.0.1-web.apk"
     },
     {
+      "id": "iptv-publico",
+      "nombre": "IPTV Público",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.publiciptv.player"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.1-web/IPTV-Publico-2.2.1-web.apk"
+    },
+    {
       "id": "barrido-turbo",
       "nombre": "Barrido Turbo",
       "precioARS": 3999,
@@ -141,16 +151,6 @@
       ],
       "venta": true,
       "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v1.0.1-web"
-    },
-    {
-      "id": "iptv-publico",
-      "nombre": "IPTV Público",
-      "precioARS": 3999,
-      "paquetes": [
-        "ar.publiciptv.player"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.1-web/IPTV-Publico-2.2.1-web.apk"
     },
     {
       "id": "retoca",
