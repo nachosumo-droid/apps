@@ -31,7 +31,7 @@
     {
       "id": "barrido-turbo",
       "nombre": "Barrido Turbo",
-      "precioARS": 2999,
+      "precioARS": 3999,
       "paquetes": [
         "ar.nacho.barridoturbo",
         "ar.nacho.barridoturbo.web"
