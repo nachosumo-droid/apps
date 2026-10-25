@@ -19,6 +19,17 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.1.1-web/LauncherTV-1.1.1-web.apk"
     },
     {
+      "id": "nacer",
+      "nombre": "Nacer",
+      "precioARS": 6999,
+      "paquetes": [
+        "ar.nacho.nacer.web",
+        "ar.nacho.nacer.tv.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/nacer-v1.7.1-web"
+    },
+    {
       "id": "launcher-tv-lite",
       "nombre": "Launcher TV Lite",
       "precioARS": 4999,
