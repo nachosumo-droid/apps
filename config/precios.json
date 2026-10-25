@@ -19,6 +19,85 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.1.1-web/LauncherTV-1.1.1-web.apk"
     },
     {
+      "id": "launcher-tv-lite",
+      "nombre": "Launcher TV Lite",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.launcher.lite"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.1-web/LauncherTV-Lite-1.0.1-web.apk"
+    },
+    {
+      "id": "vozatexto",
+      "nombre": "VozATexto",
+      "precioARS": 6999,
+      "paquetes": [
+        "ar.nacho.vozatexto",
+        "ar.nacho.vozatexto.tv"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/vozatexto-v1.2.1-web"
+    },
+    {
+      "id": "touchpad",
+      "nombre": "TouchPad",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.touchpad",
+        "ar.nacho.touchpad.web",
+        "ar.nacho.touchpad.tv"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.2.1-web/TouchPad-celular-1.2.1-web.apk"
+    },
+    {
+      "id": "androidtv-control",
+      "nombre": "AndroidTV Control",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.tvcontrol",
+        "ar.nacho.tvcontrol.web",
+        "ar.nacho.autolimpieza"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.1-web/AndroidTV-Control-celular-1.1.1-web.apk"
+    },
+    {
+      "id": "consola-tv",
+      "nombre": "Consola TV",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.consolatv",
+        "ar.nacho.consolatv.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/consola-tv-v1.1.1-web/ConsolaTV-1.1.1-web.apk"
+    },
+    {
+      "id": "mesa",
+      "nombre": "Mesa",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.mesa",
+        "ar.nacho.mesa.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.1-web/Mesa-1.1.1-web.apk"
+    },
+    {
+      "id": "camaraip",
+      "nombre": "CamaraIP",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.camaraip",
+        "ar.nacho.camaraip.web",
+        "ar.nacho.camaraipvisor"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/camaraip-v1.1.1-web/CamaraIP-celular-1.1.1-web.apk"
+    },
+    {
       "id": "nacer",
       "nombre": "Nacer",
       "precioARS": 6999,
@@ -40,16 +119,6 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/agenda-digital-90s-v1.1.1-web/Agenda-Digital-90s-1.1.1-web.apk"
     },
     {
-      "id": "launcher-tv-lite",
-      "nombre": "Launcher TV Lite",
-      "precioARS": 4999,
-      "paquetes": [
-        "ar.nacho.launcher.lite"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.1-web/LauncherTV-Lite-1.0.1-web.apk"
-    },
-    {
       "id": "buscador-videos",
       "nombre": "Buscador de Videos",
       "precioARS": 4499,
@@ -63,50 +132,25 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v1.0.1-web"
     },
     {
-      "id": "androidtv-control",
-      "nombre": "AndroidTV Control",
-      "precioARS": 4999,
-      "paquetes": [
-        "ar.nacho.tvcontrol",
-        "ar.nacho.tvcontrol.web",
-        "ar.nacho.autolimpieza"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.1-web/AndroidTV-Control-celular-1.1.1-web.apk"
-    },
-    {
-      "id": "camaraip",
-      "nombre": "CamaraIP",
-      "precioARS": 4999,
-      "paquetes": [
-        "ar.nacho.camaraip",
-        "ar.nacho.camaraip.web",
-        "ar.nacho.camaraipvisor"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/camaraip-v1.1.1-web/CamaraIP-celular-1.1.1-web.apk"
-    },
-    {
-      "id": "mesa",
-      "nombre": "Mesa",
+      "id": "iptv-publico",
+      "nombre": "IPTV Público",
       "precioARS": 3999,
       "paquetes": [
-        "ar.nacho.mesa",
-        "ar.nacho.mesa.web"
+        "ar.publiciptv.player"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.1-web/Mesa-1.1.1-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.1-web/IPTV-Publico-2.2.1-web.apk"
     },
     {
-      "id": "consola-tv",
-      "nombre": "Consola TV",
-      "precioARS": 3999,
+      "id": "retoca",
+      "nombre": "Retoca",
+      "precioARS": 2999,
       "paquetes": [
-        "ar.nacho.consolatv",
-        "ar.nacho.consolatv.web"
+        "ar.nacho.retoca",
+        "ar.nacho.retoca.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/consola-tv-v1.1.1-web/ConsolaTV-1.1.1-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v0.3.1-web/Retoca-0.3.1-web.apk"
     },
     {
       "id": "gordi",
@@ -129,50 +173,6 @@
       ],
       "venta": true,
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-adultos-v1.0.1-web/GordiAdultos-1.0.1-web.apk"
-    },
-    {
-      "id": "touchpad",
-      "nombre": "TouchPad",
-      "precioARS": 3999,
-      "paquetes": [
-        "ar.nacho.touchpad",
-        "ar.nacho.touchpad.web",
-        "ar.nacho.touchpad.tv"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.2.1-web/TouchPad-celular-1.2.1-web.apk"
-    },
-    {
-      "id": "vozatexto",
-      "nombre": "VozATexto",
-      "precioARS": 6999,
-      "paquetes": [
-        "ar.nacho.vozatexto",
-        "ar.nacho.vozatexto.tv"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/vozatexto-v1.2.1-web"
-    },
-    {
-      "id": "iptv-publico",
-      "nombre": "IPTV Público",
-      "precioARS": 3999,
-      "paquetes": [
-        "ar.publiciptv.player"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.1-web/IPTV-Publico-2.2.1-web.apk"
-    },
-    {
-      "id": "retoca",
-      "nombre": "Retoca",
-      "precioARS": 2999,
-      "paquetes": [
-        "ar.nacho.retoca",
-        "ar.nacho.retoca.web"
-      ],
-      "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v0.3.1-web/Retoca-0.3.1-web.apk"
     }
   ]
 }
