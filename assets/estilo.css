@@ -106,3 +106,7 @@ ol.pasos-i{padding-left:22px}ol.pasos-i li{margin:6px 0}
 /* Leyendas de capturas — 2026-10-25 */
 .shots a.lb{position:relative;display:block}.shots .cap{position:absolute;left:8px;right:8px;bottom:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11px;line-height:1.25;font-weight:600;padding:3px 6px;border-radius:8px;text-align:center}
 @media (orientation:landscape) and (max-height:560px){.hero{padding-top:28px;padding-bottom:28px;align-items:center}.hero-arte{max-width:min(320px,70vh)}.hero h1{font-size:clamp(30px,4.2vw,46px);margin:12px 0}}
+/* header móvil compacto (v10) */
+header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;line-height:1.2}.logo{flex-shrink:0;white-space:nowrap}.tema{flex-shrink:0}
+@media(max-width:760px){header .w{height:58px;gap:8px;padding-top:0;padding-bottom:0}nav{gap:2px}nav a{padding:7px 9px;font-size:14px;display:flex;align-items:center;min-height:36px}.tema{width:36px;height:36px;font-size:16px;margin-left:4px;border-radius:10px}.logo{gap:8px}.logo img{width:30px;height:30px}}
+@media(max-width:374px){header .w{gap:6px}nav a{padding:6px 6px;font-size:13px}.logo span{font-size:16px}.logo img{width:28px;height:28px}.tema{width:34px;height:34px}}
