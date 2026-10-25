@@ -1,4 +1,4 @@
-/* NachoSumoSoft — estilo del sitio (sin frameworks) */
+/* SumoSoft — estilo del sitio (sin frameworks) */
 :root{--bg:#070b16;--bg2:#0d1324;--card:rgba(255,255,255,.045);--card2:rgba(255,255,255,.08);--borde:rgba(255,255,255,.09);--txt:#eef2fb;--txt2:#9fabc0;--ac:#3b82f6;--ac2:#7c3aed;--cy:#67e8f9;--ok:#34d399;--r:20px;--sh:0 20px 60px -25px rgba(0,0,0,.7);
 --f:"Inter","Segoe UI Variable","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",sans-serif;--fd:"Poppins","Inter",system-ui,sans-serif;color-scheme:dark}
 [data-tema=claro]{--bg:#f6f8fc;--bg2:#ffffff;--card:#ffffff;--card2:#eef2fa;--borde:rgba(15,23,42,.10);--txt:#0f172a;--txt2:#536079;--ac:#2563eb;--sh:0 18px 50px -28px rgba(30,41,90,.35);color-scheme:light}

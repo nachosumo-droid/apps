@@ -1,4 +1,4 @@
-// NachoSumoSoft: tema claro/oscuro + animaciones suaves de entrada. No toca precios ni botones (ver sitio.js).
+// SumoSoft: tema claro/oscuro + animaciones suaves de entrada. No toca precios ni botones (ver sitio.js).
 (()=>{const d=document.documentElement,b=document.querySelector(".tema");
  const set=t=>{d.dataset.tema=t;try{localStorage.setItem("tema",t)}catch(e){}if(b){b.textContent=t==="claro"?"☾":"☀";b.setAttribute("aria-label",t==="claro"?"Cambiar a tema oscuro":"Cambiar a tema claro")}};
  set(d.dataset.tema||"oscuro");b&&b.addEventListener("click",()=>set(d.dataset.tema==="claro"?"oscuro":"claro"));
