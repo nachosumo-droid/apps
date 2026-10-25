@@ -101,7 +101,7 @@
     {
       "id": "gordi",
       "nombre": "Gordi",
-      "precioARS": 2999,
+      "precioARS": 4999,
       "paquetes": [
         "ar.nacho.mascota",
         "ar.nacho.mascota.web"
@@ -146,7 +146,7 @@
     {
       "id": "iptv-publico",
       "nombre": "IPTV Público",
-      "precioARS": 2999,
+      "precioARS": 3999,
       "paquetes": [
         "ar.publiciptv.player"
       ],
@@ -156,7 +156,7 @@
     {
       "id": "retoca",
       "nombre": "Retoca",
-      "precioARS": 5999,
+      "precioARS": 2999,
       "paquetes": [
         "ar.nacho.retoca",
         "ar.nacho.retoca.web"
