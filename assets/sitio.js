@@ -18,7 +18,7 @@
  const d=document.createElement("div");d.className="lbx";d.hidden=true;d.setAttribute("role","dialog");d.setAttribute("aria-modal","true");d.setAttribute("aria-label","Captura ampliada");
  d.innerHTML='<img alt=""><button class="x" aria-label="Cerrar">×</button><button class="pv" aria-label="Anterior">‹</button><button class="nx" aria-label="Siguiente">›</button><div class="ct" aria-live="polite"></div>';
  document.body.appendChild(d);const im=d.querySelector("img"),ct=d.querySelector(".ct");let i=0,ant=null,x0=null;
- const ver=n=>{i=(n+ls.length)%ls.length;im.src=ls[i].href;im.alt=ls[i].querySelector("img").alt.replace(" (tocá para ampliar)","");ct.textContent=(i+1)+" / "+ls.length};
+ const ver=n=>{i=(n+ls.length)%ls.length;im.src=ls[i].href;im.alt=ls[i].querySelector("img").alt.replace(" (tocá para ampliar)","");const cp=ls[i].querySelector(".cap");ct.textContent=(cp?cp.textContent+" · ":"")+(i+1)+" / "+ls.length};
  const abrir=n=>{ant=document.activeElement;ver(n);d.hidden=false;document.body.style.overflow="hidden";d.querySelector(".x").focus()};
  const cerrar=()=>{d.hidden=true;im.src="";document.body.style.overflow="";ant&&ant.focus()};
  ls.forEach((a,n)=>a.addEventListener("click",e=>{e.preventDefault();abrir(n)}));

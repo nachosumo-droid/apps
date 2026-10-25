@@ -98,3 +98,6 @@ ol.pasos-i{padding-left:22px}ol.pasos-i li{margin:6px 0}
 .tag.top{background:linear-gradient(90deg,#f59e0b,#ef4444);color:#fff;font-weight:700}
 .card.destacada{grid-column:span 2;border:2px solid #f59e0b;box-shadow:0 10px 40px -14px #f59e0b}.card.destacada h3{font-size:26px}
 @media(max-width:620px){.card.destacada{grid-column:auto}}
+
+/* Leyendas de capturas — 2026-10-25 */
+.shots a.lb{position:relative;display:block}.shots .cap{position:absolute;left:8px;right:8px;bottom:8px;background:rgba(0,0,0,.72);color:#fff;font-size:13px;font-weight:600;padding:4px 8px;border-radius:8px;text-align:center}

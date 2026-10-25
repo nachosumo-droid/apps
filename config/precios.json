@@ -42,7 +42,7 @@
     {
       "id": "buscador-videos",
       "nombre": "Buscador de Videos",
-      "precioARS": 5999,
+      "precioARS": 4499,
       "paquetes": [
         "ar.nacho.videobuscador",
         "ar.nacho.videobuscador.web",
