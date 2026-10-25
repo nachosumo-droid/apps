@@ -100,4 +100,4 @@ ol.pasos-i{padding-left:22px}ol.pasos-i li{margin:6px 0}
 @media(max-width:620px){.card.destacada{grid-column:auto}}
 
 /* Leyendas de capturas — 2026-10-25 */
-.shots a.lb{position:relative;display:block}.shots .cap{position:absolute;left:8px;right:8px;bottom:8px;background:rgba(0,0,0,.72);color:#fff;font-size:13px;font-weight:600;padding:4px 8px;border-radius:8px;text-align:center}
+.shots a.lb{position:relative;display:block}.shots .cap{position:absolute;left:8px;right:8px;bottom:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11px;line-height:1.25;font-weight:600;padding:3px 6px;border-radius:8px;text-align:center}
