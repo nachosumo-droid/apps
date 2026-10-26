@@ -94,6 +94,50 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/bateria-sana-v1.0.0-web/BateriaSana-1.0.0-web.apk"
     },
     {
+      "id": "ajustes-ocultos",
+      "nombre": "Ajustes Ocultos Fácil",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.ajustesocultos",
+        "ar.nacho.ajustesocultos.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/ajustes-ocultos-v1.0.0-web/AjustesOcultos-1.0.0-web.apk"
+    },
+    {
+      "id": "espacio-libre",
+      "nombre": "Espacio Libre",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.espaciolibre",
+        "ar.nacho.espaciolibre.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/espacio-libre-v1.0.0-web/EspacioLibre-1.0.0-web.apk"
+    },
+    {
+      "id": "vencimientos",
+      "nombre": "Vencimientos",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.vencimientos",
+        "ar.nacho.vencimientos.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/vencimientos-v1.0.0-web/Vencimientos-1.0.0-web.apk"
+    },
+    {
+      "id": "wifi-facil",
+      "nombre": "Wi-Fi Fácil",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.wififacil",
+        "ar.nacho.wififacil.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/wifi-facil-v1.0.0-web/WiFiFacil-1.0.0-web.apk"
+    },
+    {
       "id": "vozatexto",
       "nombre": "VozATexto",
       "precioARS": 6999,
