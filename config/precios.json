@@ -36,7 +36,7 @@
         "ar.publiciptv.player"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.4-web/IPTV-Publico-2.2.4-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.5-web/IPTV-Publico-2.2.5-web.apk"
     },
     {
       "id": "explorador-sumo",
@@ -58,7 +58,7 @@
         "ar.nacho.vozatexto.tv"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/vozatexto-v1.2.3-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/vozatexto-v1.2.4-web"
     },
     {
       "id": "touchpad",
@@ -70,7 +70,7 @@
         "ar.nacho.touchpad.tv"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/touchpad-v1.2.3-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/touchpad-v1.2.4-web"
     },
     {
       "id": "androidtv-control",
@@ -82,7 +82,7 @@
         "ar.nacho.autolimpieza"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/androidtv-control-v1.1.3-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/androidtv-control-v1.1.4-web"
     },
     {
       "id": "consola-tv",
@@ -93,7 +93,7 @@
         "ar.nacho.consolatv.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/consola-tv-v1.1.3-web/ConsolaTV-1.1.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/consola-tv-v1.1.4-web/ConsolaTV-1.1.4-web.apk"
     },
     {
       "id": "mesa",
@@ -104,7 +104,7 @@
         "ar.nacho.mesa.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.3-web/Mesa-1.1.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.4-web/Mesa-1.1.4-web.apk"
     },
     {
       "id": "camaraip",
@@ -116,7 +116,7 @@
         "ar.nacho.camaraipvisor"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/camaraip-v1.1.3-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/camaraip-v1.1.4-web"
     },
     {
       "id": "launcher-cel",
@@ -250,7 +250,7 @@
         "ar.nacho.videobuscador.tv.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v1.0.3-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v1.0.4-web"
     },
     {
       "id": "retoca",
@@ -261,7 +261,7 @@
         "ar.nacho.retoca.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v1.0.0-web/Retoca-1.0.0-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v1.0.1-web/Retoca-1.0.1-web.apk"
     },
     {
       "id": "agenda-digital-90s",
@@ -293,7 +293,7 @@
         "ar.nacho.mascota.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-v4.1.3-web/Gordi-4.1.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-v4.1.4-web/Gordi-4.1.4-web.apk"
     },
     {
       "id": "gordi-adultos",
@@ -304,7 +304,7 @@
         "ar.nacho.gordi.adultos.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-adultos-v1.0.3-web/GordiAdultos-1.0.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-adultos-v1.0.4-web/GordiAdultos-1.0.4-web.apk"
     }
   ]
 }
