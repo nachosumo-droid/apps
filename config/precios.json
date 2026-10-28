@@ -29,6 +29,17 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.4-web/LauncherTV-Lite-1.0.4-web.apk"
     },
     {
+      "id": "explorador-sumo",
+      "nombre": "Explorador Sumo",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.explorador",
+        "ar.nacho.explorador.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/explorador-sumo-v1.0.0-web/ExploradorSumo-1.0.0-web.apk"
+    },
+    {
       "id": "iptv-publico",
       "nombre": "IPTV Público",
       "precioARS": 3999,
