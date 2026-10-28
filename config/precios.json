@@ -50,17 +50,6 @@
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/barrido-turbo-v1.0.2-web/BarridoTurbo-1.0.2-web.apk"
     },
     {
-      "id": "launcher-cel",
-      "nombre": "Launcher Cel",
-      "precioARS": 3999,
-      "paquetes": [
-        "ar.nacho.launchercel",
-        "ar.nacho.launchercel.web"
-      ],
-      "venta": false,
-      "descarga": ""
-    },
-    {
       "id": "lista-super",
       "nombre": "Lista del Súper Compartida",
       "precioARS": 3999,
