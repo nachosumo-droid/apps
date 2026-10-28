@@ -16,7 +16,7 @@
         "ar.nacho.launcher"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.1.3-web/LauncherTV-1.1.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.1.4-web/LauncherTV-1.1.4-web.apk"
     },
     {
       "id": "launcher-tv-lite",
@@ -26,7 +26,7 @@
         "ar.nacho.launcher.lite"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.3-web/LauncherTV-Lite-1.0.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.4-web/LauncherTV-Lite-1.0.4-web.apk"
     },
     {
       "id": "iptv-publico",
@@ -36,7 +36,7 @@
         "ar.publiciptv.player"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.3-web/IPTV-Publico-2.2.3-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.4-web/IPTV-Publico-2.2.4-web.apk"
     },
     {
       "id": "vozatexto",
