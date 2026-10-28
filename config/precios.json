@@ -47,7 +47,18 @@
         "ar.nacho.barridoturbo.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/barrido-turbo-v1.0.1-web/BarridoTurbo-1.0.1-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/barrido-turbo-v1.0.2-web/BarridoTurbo-1.0.2-web.apk"
+    },
+    {
+      "id": "launcher-cel",
+      "nombre": "Launcher Cel",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.launchercel",
+        "ar.nacho.launchercel.web"
+      ],
+      "venta": false,
+      "descarga": ""
     },
     {
       "id": "lista-super",
@@ -102,7 +113,7 @@
         "ar.nacho.ajustesocultos.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/ajustes-ocultos-v1.0.0-web/AjustesOcultos-1.0.0-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/ajustes-ocultos-v1.0.1-web/AjustesOcultos-1.0.1-web.apk"
     },
     {
       "id": "espacio-libre",
@@ -113,7 +124,7 @@
         "ar.nacho.espaciolibre.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/espacio-libre-v1.0.0-web/EspacioLibre-1.0.0-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/espacio-libre-v1.0.1-web/EspacioLibre-1.0.1-web.apk"
     },
     {
       "id": "vencimientos",
@@ -124,7 +135,7 @@
         "ar.nacho.vencimientos.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/vencimientos-v1.0.0-web/Vencimientos-1.0.0-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/vencimientos-v1.0.1-web/Vencimientos-1.0.1-web.apk"
     },
     {
       "id": "wifi-facil",
@@ -135,7 +146,7 @@
         "ar.nacho.wififacil.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/wifi-facil-v1.0.0-web/WiFiFacil-1.0.0-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/wifi-facil-v1.0.1-web/WiFiFacil-1.0.1-web.apk"
     },
     {
       "id": "vozatexto",
