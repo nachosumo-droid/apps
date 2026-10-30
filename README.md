@@ -68,8 +68,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 ## Juegos
 
-- **🃏 Truco Argento** v1.0.0 — El truco de siempre, jugado con la voz, contra una CPU picante que miente.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/truco-argento-v1.0.0-web/TrucoArgento-1.0.0-web.apk) (v1.0.0) · [página](https://nachosumo-droid.github.io/apps/apps/truco-argento.html)
+- **🃏 Truco Argento** v1.1.0 — Un rival que te conoce: truco por voz contra una CPU que aprende cómo jugás, miente y te chicanea con eso.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/truco-argento-v1.1.0-web/TrucoArgento-1.1.0-web.apk) (v1.1.0) · [página](https://nachosumo-droid.github.io/apps/apps/truco-argento.html)
 - **🐹 Gordi** v4.1.4 — Tu mascota virtual: cuidala, jugá y aprendé con ella.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/gordi-v4.1.4-web/Gordi-4.1.4-web.apk) (v4.1.4) · [página](https://nachosumo-droid.github.io/apps/apps/gordi.html)
 - **🍷 Gordi Adultos** v1.0.4 — La edición para adultos de Gordi: cocina, gym, trabajo y finanzas personales.  
