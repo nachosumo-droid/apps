@@ -16,7 +16,7 @@
         "ar.nacho.launcher"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.1.5-web/LauncherTV-1.1.5-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.2.0-web/LauncherTV-1.2.0-web.apk"
     },
     {
       "id": "launcher-tv-lite",
@@ -26,7 +26,7 @@
         "ar.nacho.launcher.lite"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.0.5-web/LauncherTV-Lite-1.0.5-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.1.0-web/LauncherTV-Lite-1.1.0-web.apk"
     },
     {
       "id": "iptv-publico",
@@ -241,7 +241,7 @@
     },
     {
       "id": "buscador-videos",
-      "nombre": "Buscador de Videos",
+      "nombre": "Sumo Play",
       "precioARS": 4499,
       "paquetes": [
         "ar.nacho.videobuscador",
@@ -250,7 +250,7 @@
         "ar.nacho.videobuscador.tv.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v1.0.4-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/buscador-videos-v2.0.0-web"
     },
     {
       "id": "retoca",
