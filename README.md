@@ -6,3 +6,6 @@ Sitio estático (GitHub Pages). Sólo archivos del sitio: **no** contiene códig
   Los precios actuales son **provisorios** y deben confirmarse.
 - `ventasActivas: false` → el botón Comprar sólo informa que las compras están por habilitarse.
 - Las descargas de prueba se publican como *Releases* de este repositorio.
+
+---
+<sub>SumoSoft by Jiav (Buenos Aires, Argentina)</sub>
