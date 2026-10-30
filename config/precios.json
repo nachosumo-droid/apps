@@ -254,14 +254,14 @@
     },
     {
       "id": "retoca",
-      "nombre": "Retoca",
+      "nombre": "Retoca IA",
       "precioARS": 2999,
       "paquetes": [
         "ar.nacho.retoca",
         "ar.nacho.retoca.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v1.1.1-web/Retoca-1.1.1-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/retoca-v1.1.2-web/RetocaIA-1.1.2-web.apk"
     },
     {
       "id": "agenda-digital-90s",

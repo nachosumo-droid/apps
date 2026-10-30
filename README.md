@@ -59,8 +59,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 ## Otras
 
-- **✨ Retoca** v1.1.1 — Mejorá y ampliá fotos con IA, directamente en el celular.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/retoca-v1.1.1-web/Retoca-1.1.1-web.apk) (v1.1.1) · [página](https://nachosumo-droid.github.io/apps/apps/retoca.html)
+- **✨ Retoca IA** v1.1.2 — Mejorá y ampliá fotos con IA, directamente en el celular.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/retoca-v1.1.2-web/RetocaIA-1.1.2-web.apk) (v1.1.2) · [página](https://nachosumo-droid.github.io/apps/apps/retoca.html)
 - **📟 Agenda Digital 90s** v1.1.4 — Réplica fiel, tecla por tecla, de las agendas digitales de bolsillo de los 90.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/agenda-digital-90s-v1.1.4-web/Agenda-Digital-90s-1.1.4-web.apk) (v1.1.4) · [página](https://nachosumo-droid.github.io/apps/apps/agenda-digital-90s.html)
 - **🌱 Nacer** v1.7.4 — Una inteligencia que nace en tu equipo, sin nube, y forma su propia personalidad con los días.  
