@@ -6,8 +6,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 ## Principales
 
-- **📺 Launcher TV** v1.2.0 — Una pantalla de inicio estilo Google TV, rápida y completa para tu TV box.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.2.0-web/LauncherTV-1.2.0-web.apk) (v1.2.0) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
+- **📺 Launcher TV** v1.3.0 — Una pantalla de inicio estilo Google TV, rápida y completa para tu TV box.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.3.0-web/LauncherTV-1.3.0-web.apk) (v1.3.0) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
 - **🪶 Launcher TV Lite** v1.1.0 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.1.0-web/LauncherTV-Lite-1.1.0-web.apk) (v1.1.0) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
 - **📡 IPTV Público** v2.2.5 — Miles de canales públicos y gratuitos, en una lista cómoda para el control.  
