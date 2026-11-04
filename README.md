@@ -8,8 +8,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 - **📺 Launcher TV** v1.3.0 — Una pantalla de inicio estilo Google TV, rápida y completa para tu TV box.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.3.0-web/LauncherTV-1.3.0-web.apk) (v1.3.0) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
-- **🪶 Launcher TV Lite** v1.1.0 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.1.0-web/LauncherTV-Lite-1.1.0-web.apk) (v1.1.0) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
+- **🪶 Launcher TV Lite** v1.2.0 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.2.0-web/LauncherTV-Lite-1.2.0-web.apk) (v1.2.0) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
 - **📡 IPTV Público** v2.2.5 — Miles de canales públicos y gratuitos, en una lista cómoda para el control.  
   [⬇ APK TV](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.5-web/IPTV-Publico-2.2.5-web.apk) (v2.2.5) · [⬇ APK celular](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-celu-v2.3.2-web/IPTV-Publico-Celular-2.3.2-web.apk) (v2.3.2) · [página](https://nachosumo-droid.github.io/apps/apps/iptv-publico.html)
 - **📂 Explorador Sumo** v1.0.1 — Explorador de archivos completo para celular y TV: vista simple o doble panel, red, ADB, comprimidos, papelera y bóveda cifrada.  
