@@ -21,7 +21,7 @@
     {
       "id": "launcher-tv-lite",
       "nombre": "Launcher TV Lite",
-      "precioARS": 4999,
+      "precioARS": 6999,
       "paquetes": [
         "ar.nacho.launcher.lite"
       ],
