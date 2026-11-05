@@ -316,6 +316,17 @@
       ],
       "venta": true,
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/gordi-adultos-v1.0.4-web/GordiAdultos-1.0.4-web.apk"
+    },
+    {
+      "id": "burako-sumogame",
+      "nombre": "Burako SumoGame",
+      "precioARS": 3999,
+      "paquetes": [
+        "ar.nacho.burako",
+        "ar.nacho.burako.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.0.0-web/BurakoSumoGame-1.0.0-web.apk"
     }
   ]
 }

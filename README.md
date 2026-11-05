@@ -65,6 +65,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/agenda-digital-90s-v1.1.4-web/Agenda-Digital-90s-1.1.4-web.apk) (v1.1.4) · [página](https://nachosumo-droid.github.io/apps/apps/agenda-digital-90s.html)
 - **🌱 Nacer** v1.7.4 — Una inteligencia que nace en tu equipo, sin nube, y forma su propia personalidad con los días.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/nacer-v1.7.4-web/Nacer-1.7.4-celular-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/nacer-v1.7.4-web/Nacer-TV-1.7.4-web.apk) (v1.7.4) · [página](https://nachosumo-droid.github.io/apps/apps/nacer.html)
+- **🀄 Burako SumoGame** v1.0.0 — El Burako argentino en el celular: fichas grandes, colores alegres, contra la CPU o cara a cara entre dos celulares.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.0.0-web/BurakoSumoGame-1.0.0-web.apk) (v1.0.0) · [página](https://nachosumo-droid.github.io/apps/apps/burako-sumogame.html)
 
 ## Juegos
 
