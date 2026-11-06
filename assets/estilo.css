@@ -142,3 +142,13 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .inst-tabla th{background:var(--card2)}
 .inst-ayuda a{font-weight:700;text-decoration:underline}
 .inst-ayuda{border-left:4px solid #f59e0b;padding-left:12px}
+
+.nota-descarga{font-size:13px;color:var(--txt2);margin:-4px 0 10px;padding:8px 12px;border-radius:10px;background:rgba(255,179,71,.08);border:1px dashed rgba(255,179,71,.45)}
+.destacado-feat{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:center;margin:16px 0 18px;padding:18px 20px;border-radius:18px;border:1px solid var(--borde);border-left:5px solid #e53935;background:linear-gradient(135deg,rgba(229,57,53,.12),rgba(15,23,42,.4))}
+.destacado-feat h2{margin:0 0 8px;font-size:22px}.destacado-feat p{margin:0;color:var(--txt2);line-height:1.45}
+.destacado-feat figure{margin:0;text-align:center}.destacado-feat img{max-width:100%;max-height:280px;width:auto;border-radius:14px;box-shadow:0 8px 28px rgba(0,0,0,.35)}
+.destacado-feat figcaption{font-size:12px;color:var(--txt2);margin-top:6px}
+@media(max-width:760px){.destacado-feat{grid-template-columns:1fr}.destacado-feat img{max-height:220px}}
+.pp-shot{display:block;max-width:min(360px,100%);margin:14px auto;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.pp-guia{display:grid;grid-template-columns:minmax(220px,320px) 1fr;gap:18px;align-items:center;margin:12px 0 6px}
+@media(max-width:760px){.pp-guia{grid-template-columns:1fr}}

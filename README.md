@@ -10,7 +10,7 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.3.1-web/LauncherTV-1.3.1-web.apk) (v1.3.1) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
 - **🪶 Launcher TV Lite** v1.2.1 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.2.1-web/LauncherTV-Lite-1.2.1-web.apk) (v1.2.1) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
-- **📡 IPTV Público** v2.2.6 — Miles de canales públicos y gratuitos, en una lista cómoda para el control.  
+- **📡 IPTV Público** v2.2.6 — Miles de canales públicos y gratuitos. En el celular: gestos y Enviar a la tele (Chromecast o DLNA).  
   [⬇ APK TV](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.6-web/IPTV-Publico-2.2.6-web.apk) (v2.2.6) · [⬇ APK celular](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-celu-v2.3.3-web/IPTV-Publico-Celular-2.3.3-web.apk) (v2.3.3) · [página](https://nachosumo-droid.github.io/apps/apps/iptv-publico.html)
 - **📂 Explorador Sumo** v1.0.2 — Explorador de archivos completo para celular y TV: vista simple o doble panel, red, ADB, comprimidos, papelera y bóveda cifrada.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/explorador-sumo-v1.0.2-web/ExploradorSumo-1.0.2-web.apk) (v1.0.2) · [página](https://nachosumo-droid.github.io/apps/apps/explorador-sumo.html)
