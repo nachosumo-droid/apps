@@ -129,3 +129,16 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .sinpub-lista{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px 18px;padding:0;margin:14px 0 0;list-style:none}
 .sinpub-lista li::before{content:"✓ ";color:var(--ok);font-weight:700}
 @media(max-width:600px){.sinpub-box{flex-direction:column;padding:20px;gap:12px}.sinpub-lead{font-size:17px}}
+
+.lead{font-size:18px;line-height:1.5;color:var(--txt2);max-width:70ch}
+.inst-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:22px 0}
+.inst-card{background:var(--card);border:1px solid var(--borde);border-radius:var(--r);padding:22px 24px;box-shadow:var(--sh)}
+.inst-card.wide{grid-column:1/-1}
+.inst-card h2{margin:0 0 12px;font-size:20px}
+.inst-il{margin:0 0 14px;border-radius:14px;overflow:hidden}
+.inst-il svg{display:block;width:100%;height:auto}
+.inst-tabla{width:100%;border-collapse:collapse;font-size:15px}
+.inst-tabla th,.inst-tabla td{border:1px solid var(--borde);padding:10px 12px;text-align:left;vertical-align:top}
+.inst-tabla th{background:var(--card2)}
+.inst-ayuda a{font-weight:700;text-decoration:underline}
+.inst-ayuda{border-left:4px solid #f59e0b;padding-left:12px}
