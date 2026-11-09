@@ -188,11 +188,22 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .trust-line a{color:var(--ac);font-weight:600}
 .pago-slot{margin-top:10px}
 .pago-slot .paypal-placeholder{display:none} /* PayPal: activar cuando haya client ID */
-.arrep-link{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:#fbbf24;border:1px solid rgba(251,191,36,.45);background:rgba(251,191,36,.08);border-radius:999px;padding:6px 12px;font-size:13px;text-decoration:none}
-.arrep-link:hover{background:rgba(251,191,36,.16);text-decoration:none}
+.arrep-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;font-weight:700;color:#b45309;border:1px solid rgba(180,83,9,.45);background:rgba(251,191,36,.14);border-radius:999px;padding:8px 14px;font-size:13px;line-height:1.2;text-decoration:none;max-width:100%;box-sizing:border-box;white-space:normal;text-align:center}
+[data-tema=oscuro] .arrep-link,[data-tema="oscuro"] .arrep-link{color:#fbbf24;border-color:rgba(251,191,36,.5);background:rgba(251,191,36,.1)}
+html:not([data-tema=claro]) .arrep-link{color:#fbbf24;border-color:rgba(251,191,36,.5);background:rgba(251,191,36,.1)}
+[data-tema=claro] .arrep-link{color:#92400e;border-color:rgba(146,64,14,.4);background:rgba(251,191,36,.22)}
+.arrep-link:hover{filter:brightness(1.05);text-decoration:none}
 .form-arrep label{display:block;font-size:13px;color:var(--txt2);margin:12px 0 4px}
 .form-arrep input,.form-arrep select,.form-arrep textarea{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--borde);background:rgba(0,0,0,.25);color:var(--txt);font:inherit}
 .form-arrep textarea{min-height:90px;resize:vertical}
 .form-arrep .btn{margin-top:16px}
 .aviso.ley{border-left-color:#fbbf24;background:rgba(251,191,36,.08);color:#fde68a}
-footer .arrep-foot{margin-top:10px}
+[data-tema=claro] .aviso.ley{color:#92400e;background:rgba(251,191,36,.18)}
+footer .arrep-foot{margin:18px 0 0;padding:0;display:flex;flex-direction:column;align-items:flex-start;gap:8px;max-width:100%}
+footer .arrep-foot .arrep-link{margin:0}
+footer .arrep-trust{margin:0;font-size:12px;line-height:1.45;color:var(--txt2);max-width:36rem}
+@media(max-width:640px){
+  footer .arrep-foot{align-items:center;text-align:center}
+  footer .arrep-trust{text-align:center;max-width:100%;padding:0 4px}
+  footer .pie .arrep-link{display:none}
+}
