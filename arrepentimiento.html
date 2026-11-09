@@ -1,0 +1,55 @@
+<!doctype html><html lang="es-AR" data-tema="oscuro" data-raiz="."><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Botón de arrepentimiento — SumoSoft</title><meta name="description" content="Botón de arrepentimiento SumoSoft: cancelá tu compra dentro de los 10 días corridos (Ley 24.240). Formulario por correo."><meta name="theme-color" content="#070b16"><meta name="color-scheme" content="dark light"><link rel="canonical" href="https://nachosumo-droid.github.io/apps/arrepentimiento.html"><meta property="og:type" content="website"><meta property="og:site_name" content="SumoSoft"><meta property="og:locale" content="es_AR"><meta property="og:title" content="Botón de arrepentimiento — SumoSoft"><meta property="og:description" content="Cancelá tu compra dentro de los 10 días corridos. Te respondemos con un código de trámite en 24 h."><meta property="og:url" content="https://nachosumo-droid.github.io/apps/arrepentimiento.html"><meta property="og:image" content="https://nachosumo-droid.github.io/apps/img/marca/og-image.png?v=3"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nachosumo-droid.github.io/apps/img/marca/og-image.png?v=3"><link rel="icon" type="image/png" sizes="32x32" href="./img/marca/favicon-32.png?v=3"><link rel="apple-touch-icon" href="./img/marca/apple-touch-icon.png?v=3"><script>try{var t=localStorage.getItem("tema");if(!t)t=matchMedia("(prefers-color-scheme: light)").matches?"claro":"oscuro";document.documentElement.dataset.tema=t}catch(e){}</script>
+<link rel="stylesheet" href="./assets/estilo.css?v=11"><link rel="icon" type="image/svg+xml" href="./img/marca/icono.svg?v=3"></head><body>
+<a class="saltar" href="#contenido">Saltar al contenido</a><header><div class="w"><a class="logo" href="./index.html" aria-label="SumoSoft, inicio"><img src="./img/marca/icono.svg?v=3" alt="" width="34" height="34"><span>Sumo<b>Soft</b></span></a><nav aria-label="Principal"><a href="./index.html#apps">Apps</a><a class="oc" href="./index.html#confianza">Por qué nosotros</a><a href="./instalar.html">Cómo instalar</a><a href="./faq.html">Preguntas</a><a class="oc" href="./contacto.html">Contacto</a><button class="tema" type="button" aria-label="Cambiar tema">☀</button></nav></div></header>
+<main id="contenido"><div class="doc w">
+<h1>Botón de arrepentimiento</h1>
+<p class="aviso ley">Derecho de arrepentimiento (Ley 24.240 art. 34 y Resolución 424/2020): podés cancelar la compra dentro de los <b>10 días corridos</b> desde el pago o la descarga, sin dar motivos.</p>
+<p>Completá el pedido y tocá «Enviar por correo». Se abre tu app de correo hacia <b>nachosumo@gmail.com</b> con los datos listos. Te respondemos con un <b>código de identificación de trámite</b> dentro de las 24 horas hábiles.</p>
+<p>Si corresponde, la cancelación se gestiona por el mismo medio de pago (Mercado Pago). Los plazos de acreditación los define Mercado Pago y tu banco.</p>
+<form class="form-arrep box" id="form-arrep" onsubmit="return enviarArrep(event)">
+<label for="nombre">Nombre y apellido</label>
+<input id="nombre" name="nombre" required autocomplete="name" placeholder="Como figura en el pago">
+<label for="email">Correo electrónico</label>
+<input id="email" name="email" type="email" required autocomplete="email" placeholder="Para enviarte el código de trámite">
+<label for="app">App comprada</label>
+<select id="app" name="app" required><option value="">Elegí la app</option><option value="Launcher TV">Launcher TV</option><option value="Launcher TV Lite">Launcher TV Lite</option><option value="IPTV Público">IPTV Público</option><option value="Burako SumoGame">Burako SumoGame</option><option value="Truco Argento">Truco Argento</option><option value="Explorador Sumo">Explorador Sumo</option><option value="VozATexto">VozATexto</option><option value="TouchPad">TouchPad</option><option value="AndroidTV Control">AndroidTV Control</option><option value="Consola TV">Consola TV</option><option value="Mesa">Mesa</option><option value="CamaraIP">CamaraIP</option><option value="Launcher Cel">Launcher Cel</option><option value="Barrido Turbo">Barrido Turbo</option><option value="Espacio Libre">Espacio Libre</option><option value="Batería Sana">Batería Sana</option><option value="Ajustes Ocultos Fácil">Ajustes Ocultos Fácil</option><option value="Mirada Amiga">Mirada Amiga</option><option value="Anti Estafa">Anti Estafa</option><option value="Celu para Abuelos">Celu para Abuelos</option><option value="Lista del Súper Compartida">Lista del Súper Compartida</option><option value="Vencimientos">Vencimientos</option><option value="Wi-Fi Fácil">Wi-Fi Fácil</option><option value="Sumo Play">Sumo Play</option><option value="Retoca IA">Retoca IA</option><option value="Agenda Digital 90s">Agenda Digital 90s</option><option value="Gordi">Gordi</option><option value="Gordi Adultos">Gordi Adultos</option><option value="Nacer">Nacer</option></select>
+<label for="fecha">Fecha del pago (aprox.)</label>
+<input id="fecha" name="fecha" type="date" required>
+<label for="pago">N.º de pago / ID de Mercado Pago o código de compra</label>
+<input id="pago" name="pago" required placeholder="Ej. 1234567890 o el código de la app">
+<label for="nota">Nota (opcional)</label>
+<textarea id="nota" name="nota" placeholder="Algo que nos ayude a ubicar tu compra"></textarea>
+<button class="btn pri" type="submit">Enviar pedido de arrepentimiento</button>
+</form>
+<p style="font-size:14px;color:var(--txt2);margin-top:18px">También podés escribir directo a <a href="mailto:nachosumo@gmail.com?subject=Bot%C3%B3n%20de%20arrepentimiento">nachosumo@gmail.com</a> con el asunto «Botón de arrepentimiento». Este es el canal oficial del derecho de arrepentimiento (10 días corridos).</p>
+</div>
+<script>
+function enviarArrep(e){
+  e.preventDefault();
+  const n=document.getElementById('nombre').value.trim();
+  const em=document.getElementById('email').value.trim();
+  const ap=document.getElementById('app').value;
+  const fe=document.getElementById('fecha').value;
+  const pa=document.getElementById('pago').value.trim();
+  const no=document.getElementById('nota').value.trim();
+  const cuerpo=[
+    'Pedido de arrepentimiento (Ley 24.240 / Res. 424/2020)',
+    '',
+    'Nombre: '+n,
+    'Email: '+em,
+    'App: '+ap,
+    'Fecha de pago: '+fe,
+    'ID pago / código: '+pa,
+    no?'Nota: '+no:null,
+    '',
+    'Solicito la cancelación dentro de los 10 días corridos y el código de identificación de trámite.'
+  ].filter(Boolean).join('
+');
+  const url='mailto:nachosumo@gmail.com?subject='+encodeURIComponent('Botón de arrepentimiento — '+ap)+'&body='+encodeURIComponent(cuerpo);
+  location.href=url;
+  return false;
+}
+</script></main>
+<footer><div class="w"><div class="pie"><div><a class="logo" href="./index.html"><img src="./img/marca/icono.svg?v=3" alt="" width="34" height="34"><span>Sumo<b>Soft</b></span></a><p style="margin:0;max-width:340px">Apps para Android TV y celular, pensadas para el control remoto y hechas en Argentina.</p></div><div><h4>Sitio</h4><a href="./index.html#apps">Apps</a><a href="./instalar.html">Cómo instalar</a><a href="./faq.html">Preguntas frecuentes</a><a href="./contacto.html">Contacto</a></div><div><h4>Legal</h4><a href="./privacidad.html">Privacidad</a><a href="./terminos.html">Términos</a><a href="./reembolsos.html">Reembolsos</a><a class="arrep-link" href="./arrepentimiento.html" style="margin-top:8px">Botón de arrepentimiento</a></div></div><p class="arrep-foot"><a class="arrep-link" href="./arrepentimiento.html">Botón de arrepentimiento</a> <span style="margin-left:8px;font-size:12px;opacity:.85">Pago seguro · Podés arrepentirte dentro de los 10 días</span></p><div class="legal"><span>© 2026 SumoSoft</span><span>Pagos procesados por Mercado Pago</span></div><p class="credito" style="margin:14px 0 0;font-size:12px;color:var(--txt2);opacity:.8">SumoSoft by Jiav (Buenos Aires, Argentina)</p></div></footer>
+<script src="./assets/sitio.js?v=11" defer></script><script src="./assets/marca.js?v=11" defer></script></body></html>

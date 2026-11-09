@@ -152,3 +152,47 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .pp-shot{display:block;max-width:min(360px,100%);margin:14px auto;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
 .pp-guia{display:grid;grid-template-columns:minmax(220px,320px) 1fr;gap:18px;align-items:center;margin:12px 0 6px}
 @media(max-width:760px){.pp-guia{grid-template-columns:1fr}}
+
+
+/* === ventas UI (v-ventas) === */
+.grid-dest{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:18px 0 28px}
+@media(max-width:900px){.grid-dest{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.grid-dest{grid-template-columns:1fr}}
+.card.venta{display:flex;flex-direction:column;gap:10px;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:0 0 16px;overflow:hidden;color:var(--txt);text-decoration:none;box-shadow:0 10px 36px -18px rgba(0,0,0,.55);transition:transform .18s,box-shadow .18s,border-color .18s}
+.card.venta:hover,.card.venta:focus-visible{transform:translateY(-5px);box-shadow:0 16px 44px -12px var(--c,var(--ac));border-color:var(--c,var(--ac));text-decoration:none;outline:none}
+.card.venta .portada{aspect-ratio:16/10;background:#0a0d14;overflow:hidden}
+.card.venta .portada img{width:100%;height:100%;object-fit:cover;display:block}
+.card.venta .cuerpo{padding:0 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card.venta .ico-row{display:flex;align-items:center;gap:10px;margin-top:-28px}
+.card.venta .ico{width:52px;height:52px;border-radius:14px;border:2px solid rgba(255,255,255,.12);box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.card.venta h3{margin:0;font-size:19px;font-weight:700;letter-spacing:-.01em}
+.card.venta p.corto{margin:0;color:var(--txt2);font-size:14px;line-height:1.4;flex:1}
+.card.venta .precio{font-size:22px;font-weight:800;letter-spacing:-.02em}
+.card.venta .precio small{display:block;font-size:12px;font-weight:500;color:var(--txt2);margin-top:2px}
+.card.venta .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 16px;margin-top:4px}
+.card.venta .btns .btn{justify-content:center;padding:11px 10px;font-size:13px;border-radius:12px;text-align:center}
+.card.venta .btns .btn.pri{font-size:13px}
+.card.venta.destacada{border:2px solid #f59e0b;box-shadow:0 12px 40px -14px rgba(245,158,11,.55)}
+.sec-dest .sec-t h2{font-size:clamp(26px,3.5vw,34px);font-weight:700}
+.cat{margin:10px 0 14px;border:1px solid rgba(255,255,255,.12);border-radius:16px;background:rgba(255,255,255,.03);overflow:hidden}
+.cat>summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:700;font-size:17px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.cat>summary::-webkit-details-marker{display:none}
+.cat>summary .sub{font-weight:500;font-size:13px;color:var(--txt2)}
+.cat>summary .chev{transition:transform .2s;opacity:.7}
+.cat[open]>summary .chev{transform:rotate(180deg)}
+.cat .grid{margin:0 14px 16px}
+.confianza .conf{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1)}
+.btn.mp-grande{font-size:18px;padding:16px 28px;border-radius:16px;background:linear-gradient(90deg,#009ee3,#005f9e);box-shadow:0 10px 32px -10px #009ee3}
+.btn.mp-grande:hover{filter:brightness(1.06)}
+.trust-line{margin:10px 0 0;font-size:13px;color:var(--txt2);display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.trust-line a{color:var(--ac);font-weight:600}
+.pago-slot{margin-top:10px}
+.pago-slot .paypal-placeholder{display:none} /* PayPal: activar cuando haya client ID */
+.arrep-link{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:#fbbf24;border:1px solid rgba(251,191,36,.45);background:rgba(251,191,36,.08);border-radius:999px;padding:6px 12px;font-size:13px;text-decoration:none}
+.arrep-link:hover{background:rgba(251,191,36,.16);text-decoration:none}
+.form-arrep label{display:block;font-size:13px;color:var(--txt2);margin:12px 0 4px}
+.form-arrep input,.form-arrep select,.form-arrep textarea{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--borde);background:rgba(0,0,0,.25);color:var(--txt);font:inherit}
+.form-arrep textarea{min-height:90px;resize:vertical}
+.form-arrep .btn{margin-top:16px}
+.aviso.ley{border-left-color:#fbbf24;background:rgba(251,191,36,.08);color:#fde68a}
+footer .arrep-foot{margin-top:10px}
