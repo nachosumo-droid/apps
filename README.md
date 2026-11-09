@@ -29,8 +29,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.5-web/Mesa-1.1.5-web.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/mesa.html)
 - **📷 CamaraIP** v1.1.5 — Convertí un celular viejo en cámara de seguridad y mirala en el TV.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/camaraip-v1.1.5-web/CamaraIP-celular-1.1.5-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/camaraip-v1.1.5-web/CamaraIP-Visor-TV-1.1.1.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/camaraip.html)
-- **▶️ Sumo Play** v2.0.1 — El reproductor de video oficial de Launcher TV: controles grandes, listas, carpeta, subtítulos en vivo y búsqueda de videos.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.1-web/SumoPlay-Celular-2.0.1-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.1-web/SumoPlay-TV-2.0.1-web.apk) (v2.0.1) · [página](https://nachosumo-droid.github.io/apps/apps/buscador-videos.html)
+- **▶️ Sumo Play** v2.0.2 — El reproductor de video oficial de Launcher TV: controles grandes, listas, carpeta, subtítulos en vivo y búsqueda de videos.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.2-web/SumoPlay-Celular-2.0.2-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.2-web/SumoPlay-TV-2.0.2-web.apk) (v2.0.2) · [página](https://nachosumo-droid.github.io/apps/apps/buscador-videos.html)
 
 ## Launcher Cel y utilidades del celular
 
