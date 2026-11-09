@@ -6,10 +6,10 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 ## Principales
 
-- **📺 Launcher TV** v1.3.2 — Una pantalla de inicio estilo Google TV, rápida y completa para tu TV box.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.3.2-web/LauncherTV-1.3.2-web.apk) (v1.3.2) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
-- **🪶 Launcher TV Lite** v1.2.2 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.2.2-web/LauncherTV-Lite-1.2.2-web.apk) (v1.2.2) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
+- **📺 Launcher TV** v1.3.3 — Una pantalla de inicio estilo Google TV, rápida y completa para tu TV box.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.3.3-web/LauncherTV-1.3.3-web.apk) (v1.3.3) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
+- **🪶 Launcher TV Lite** v1.2.3 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.2.3-web/LauncherTV-Lite-1.2.3-web.apk) (v1.2.3) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
 - **📡 IPTV Público** v2.2.6 — Miles de canales públicos y gratuitos. En el celular: gestos y Enviar a la tele (Chromecast o DLNA).  
   [⬇ APK TV](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.6-web/IPTV-Publico-2.2.6-web.apk) (v2.2.6) · [⬇ APK celular](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-celu-v2.3.3-web/IPTV-Publico-Celular-2.3.3-web.apk) (v2.3.3) · [página](https://nachosumo-droid.github.io/apps/apps/iptv-publico.html)
 - **📂 Explorador Sumo** v1.0.2 — Explorador de archivos completo para celular y TV: vista simple o doble panel, red, ADB, comprimidos, papelera y bóveda cifrada.  
@@ -29,8 +29,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/mesa-v1.1.5-web/Mesa-1.1.5-web.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/mesa.html)
 - **📷 CamaraIP** v1.1.5 — Convertí un celular viejo en cámara de seguridad y mirala en el TV.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/camaraip-v1.1.5-web/CamaraIP-celular-1.1.5-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/camaraip-v1.1.5-web/CamaraIP-Visor-TV-1.1.1.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/camaraip.html)
-- **▶️ Sumo Play** v2.0.2 — El reproductor de video oficial de Launcher TV: controles grandes, listas, carpeta, subtítulos en vivo y búsqueda de videos.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.2-web/SumoPlay-Celular-2.0.2-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.2-web/SumoPlay-TV-2.0.2-web.apk) (v2.0.2) · [página](https://nachosumo-droid.github.io/apps/apps/buscador-videos.html)
+- **▶️ Sumo Play** v2.0.3 — El reproductor de video oficial de Launcher TV: controles grandes, listas, carpeta, subtítulos en vivo y búsqueda de videos.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.3-web/SumoPlay-Celular-2.0.3-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/buscador-videos-v2.0.3-web/SumoPlay-TV-2.0.3-web.apk) (v2.0.3) · [página](https://nachosumo-droid.github.io/apps/apps/buscador-videos.html)
 
 ## Launcher Cel y utilidades del celular
 
@@ -65,8 +65,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/agenda-digital-90s-v1.1.5-web/Agenda-Digital-90s-1.1.5-web.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/agenda-digital-90s.html)
 - **🌱 Nacer** v1.7.5 — Una inteligencia que nace en tu equipo, sin nube, y forma su propia personalidad con los días.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/nacer-v1.7.5-web/Nacer-1.7.5-celular-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/nacer-v1.7.5-web/Nacer-TV-1.7.5-web.apk) (v1.7.5) · [página](https://nachosumo-droid.github.io/apps/apps/nacer.html)
-- **🀄 Burako SumoGame** v1.2.0 — El Burako argentino en el celular: fichas grandes, colores alegres, contra la CPU o cara a cara entre dos celulares.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.2.0-web/BurakoSumoGame-1.2.0-web.apk) (v1.2.0) · [página](https://nachosumo-droid.github.io/apps/apps/burako-sumogame.html)
+- **🀄 Burako SumoGame** v1.3.0 — El Burako argentino en el celular: fichas grandes, colores alegres, contra la CPU o cara a cara entre dos celulares.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.3.0-web/BurakoSumoGame-1.3.0-web.apk) (v1.3.0) · [página](https://nachosumo-droid.github.io/apps/apps/burako-sumogame.html)
 
 ## Juegos
 
