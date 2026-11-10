@@ -190,6 +190,7 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .card.venta .btns .btn{justify-content:center;padding:11px 8px;font-size:13px;border-radius:12px;text-align:center;line-height:1.2}
 /* Destacadas: el recuadro dorado con brillo largo de antes */
 .fichas>.card.venta{grid-column:auto}
+@media(min-width:601px){.fichas.f-dest>.card.venta:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 12px)}}
 .card.venta.destacada{border:2px solid #f59e0b;box-shadow:0 10px 40px -14px #f59e0b}
 .card.venta.destacada:hover,.card.venta.destacada:focus-within{border-color:#f59e0b;box-shadow:0 18px 54px -12px #f59e0b}
 .card.venta.destacada h3{font-size:clamp(22px,2.4vw,26px)}
