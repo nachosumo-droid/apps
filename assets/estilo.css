@@ -159,32 +159,88 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .tag.ver{background:rgba(79,140,255,.18);color:var(--ac,#4f8cff);font-weight:700;border:1px solid rgba(79,140,255,.35)}
 
 /* === ventas UI (v-ventas) === */
-.grid-dest{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:18px 0 28px}
-@media(max-width:900px){.grid-dest{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.grid-dest{grid-template-columns:1fr}}
-.card.venta{display:flex;flex-direction:column;gap:10px;background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:0 0 16px;overflow:hidden;color:var(--txt);text-decoration:none;box-shadow:0 10px 36px -18px rgba(0,0,0,.55);transition:transform .18s,box-shadow .18s,border-color .18s}
-.card.venta:hover,.card.venta:focus-visible{transform:translateY(-5px);box-shadow:0 16px 44px -12px var(--c,var(--ac));border-color:var(--c,var(--ac));text-decoration:none;outline:none}
-.card.venta .portada{aspect-ratio:16/10;background:#0a0d14;overflow:hidden}
-.card.venta .portada img{width:100%;height:100%;object-fit:cover;display:block}
-.card.venta .cuerpo{padding:0 16px;display:flex;flex-direction:column;gap:8px;flex:1}
-.card.venta .ico-row{display:flex;align-items:center;gap:10px;margin-top:-28px}
-.card.venta .ico{width:52px;height:52px;border-radius:14px;border:2px solid rgba(255,255,255,.12);box-shadow:0 6px 18px rgba(0,0,0,.35)}
-.card.venta h3{margin:0;font-size:19px;font-weight:700;letter-spacing:-.01em}
-.card.venta p.corto{margin:0;color:var(--txt2);font-size:14px;line-height:1.4;flex:1}
-.card.venta .precio{font-size:22px;font-weight:800;letter-spacing:-.02em}
-.card.venta .precio small{display:block;font-size:12px;font-weight:500;color:var(--txt2);margin-top:2px}
-.card.venta .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 16px;margin-top:4px}
-.card.venta .btns .btn{justify-content:center;padding:11px 10px;font-size:13px;border-radius:12px;text-align:center}
-.card.venta .btns .btn.pri{font-size:13px}
-.card.venta.destacada{border:2px solid #f59e0b;box-shadow:0 12px 40px -14px rgba(245,158,11,.55)}
-.sec-dest .sec-t h2{font-size:clamp(26px,3.5vw,34px);font-weight:700}
-.cat{margin:10px 0 14px;border:1px solid rgba(255,255,255,.12);border-radius:16px;background:rgba(255,255,255,.03);overflow:hidden}
-.cat>summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:700;font-size:17px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.cat>summary::-webkit-details-marker{display:none}
-.cat>summary .sub{font-weight:500;font-size:13px;color:var(--txt2)}
-.cat>summary .chev{transition:transform .2s;opacity:.7}
-.cat[open]>summary .chev{transform:rotate(180deg)}
-.cat .grid{margin:0 14px 16px}
+/* Portada en 3 niveles: grandes (brillo dorado largo, como antes), de a 2/3 y de a 2/4 más chicas */
+.sec-dest .sec-t{margin-top:8px}
+.sec-dest .sec-t h2{font-size:clamp(24px,3.4vw,34px);font-weight:700;margin:0}
+.sec-dest .sec-t.mas{margin-top:38px}
+.sec-dest .sec-t h2.chico{font-size:clamp(20px,2.6vw,26px)}
+.fichas{display:grid;gap:18px;margin:16px 0 8px}
+.fichas.f-dest{grid-template-columns:repeat(2,1fr);gap:24px}
+.fichas.f-med{grid-template-columns:repeat(3,1fr)}
+.fichas.f-men{grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:1000px){.fichas.f-med{grid-template-columns:repeat(2,1fr)}.fichas.f-men{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.fichas.f-dest{grid-template-columns:1fr;gap:20px}.fichas.f-med,.fichas.f-men{grid-template-columns:repeat(2,1fr);gap:10px}}
+.card.venta{display:flex;flex-direction:column;gap:0;padding:0;background:var(--card);border:1px solid var(--borde);border-radius:20px;overflow:hidden;color:var(--txt);text-decoration:none;transition:transform .18s,box-shadow .18s,border-color .18s;min-width:0}
+.card.venta:hover,.card.venta:focus-within{transform:translateY(-4px);box-shadow:0 16px 44px -14px var(--c,var(--ac));border-color:var(--c,var(--ac))}
+.card.venta .portada{display:block;margin:0;aspect-ratio:16/9;background:#0b1024;overflow:hidden;border-bottom:1px solid var(--borde);position:relative}
+.card.venta .portada:after{display:none}
+.card.venta .portada img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;transform:none!important}
+.card.venta .cuerpo{padding:14px 16px 0;display:flex;flex-direction:column;gap:7px;flex:1;min-width:0}
+.card.venta .ico-row{display:flex;align-items:center;gap:10px;flex-wrap:nowrap}
+.card.venta .ico{width:44px;height:44px;border-radius:12px;flex:none;box-shadow:0 4px 12px rgba(0,0,0,.25)}
+.card.venta .ico img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.card.venta .tags{display:flex;flex-wrap:wrap;gap:5px;min-width:0;flex:1 1 0}
+.card.venta .tag{font-size:11px}
+.card.venta h3{margin:0;font-size:19px;font-weight:700;letter-spacing:-.01em;line-height:1.2}
+.card.venta h3 a{color:inherit;text-decoration:none}
+.card.venta p.corto{margin:0;color:var(--txt2);font-size:14px;line-height:1.4;flex:none}
+.card.venta .precio{font-size:21px;font-weight:800;letter-spacing:-.02em;margin-top:auto;padding-top:4px}
+.card.venta .precio small{display:block;font-size:12px;font-weight:500;color:var(--txt2);margin-top:1px;letter-spacing:0}
+.card.venta .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 16px 16px}
+.card.venta .btns .btn{justify-content:center;padding:11px 8px;font-size:13px;border-radius:12px;text-align:center;line-height:1.2}
+/* Destacadas: el recuadro dorado con brillo largo de antes */
+.fichas>.card.venta{grid-column:auto}
+.card.venta.destacada{border:2px solid #f59e0b;box-shadow:0 10px 40px -14px #f59e0b}
+.card.venta.destacada:hover,.card.venta.destacada:focus-within{border-color:#f59e0b;box-shadow:0 18px 54px -12px #f59e0b}
+.card.venta.destacada h3{font-size:clamp(22px,2.4vw,26px)}
+.card.venta.destacada p.corto{font-size:15px}
+.card.venta.destacada .ico{width:52px;height:52px}
+.card.venta.destacada .btns .btn{padding:13px 10px;font-size:14px}
+/* Móvil: hero más compacto para que los launchers se vean enseguida, y header sin desbordar */
+@media(max-width:600px){
+  .hero{padding:18px 18px 22px;gap:14px}
+  .hero-arte{max-width:150px}
+  .hero .chips{display:none}
+  .hero .cta{margin-bottom:4px}
+  .hero h1{font-size:clamp(30px,8.4vw,36px);margin:10px 0}
+  .hero p{font-size:16px;line-height:1.5;margin-bottom:18px}
+}
+@media(max-width:440px){
+  header .w{gap:4px;padding-left:12px;padding-right:12px}
+  nav{gap:0}
+  nav a{padding:6px 6px;font-size:13px}
+  .logo span{font-size:16px}.logo img{width:28px;height:28px}
+  .tema{width:34px;height:34px;margin-left:2px}
+}
+/* Si en 2 columnas queda una sola al final, que ocupe el ancho (sin huecos) */
+@media(max-width:1000px){.fichas.f-med>.card.venta:last-child:nth-child(odd){grid-column:1/-1}}
+@media(max-width:600px){.fichas.f-men>.card.venta:last-child:nth-child(odd){grid-column:1/-1}.fichas>.card.venta:last-child:nth-child(odd) .btns{grid-template-columns:1fr 1fr}}
+/* Medianas y chicas */
+.card.venta.t-men{border-radius:16px}
+.card.venta.t-men .cuerpo{padding:10px 12px 0;gap:5px}
+.card.venta.t-men .ico{width:34px;height:34px;border-radius:9px}
+.card.venta.t-men h3{font-size:16px}
+.card.venta.t-men p.corto{font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card.venta.t-men .precio{font-size:17px}
+.card.venta.t-men .btns{grid-template-columns:1fr;gap:6px;padding:10px 12px 12px}
+.card.venta.t-men .btns .btn{padding:9px 6px;font-size:12px}
+@media(max-width:600px){
+  .card.venta .btns{grid-template-columns:1fr}
+  .card.venta.destacada .btns{grid-template-columns:1fr 1fr}
+  .card.venta.t-med,.card.venta.t-men{border-radius:14px}
+  .card.venta.t-med .cuerpo,.card.venta.t-men .cuerpo{padding:9px 10px 0;gap:5px}
+  .card.venta.t-med .ico,.card.venta.t-men .ico{width:30px;height:30px;border-radius:8px}
+  .card.venta.t-med .ico img,.card.venta.t-men .ico img{border-radius:8px}
+  .card.venta.t-med .ico-row,.card.venta.t-men .ico-row{gap:6px}
+  .card.venta.t-med .tag,.card.venta.t-men .tag{font-size:10px;padding:2px 7px}
+  .card.venta.t-med h3{font-size:15px}.card.venta.t-men h3{font-size:14px}
+  .card.venta.t-med p.corto,.card.venta.t-men p.corto{font-size:12.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .card.venta.t-men p.corto{-webkit-line-clamp:2}
+  .card.venta.t-med .precio,.card.venta.t-men .precio{font-size:16px}
+  .card.venta.t-med .precio small,.card.venta.t-men .precio small{font-size:10.5px}
+  .card.venta.t-med .btns,.card.venta.t-men .btns{gap:6px;padding:9px 10px 10px}
+  .card.venta.t-med .btns .btn,.card.venta.t-men .btns .btn{padding:9px 4px;font-size:12px;border-radius:10px}
+}
 .confianza .conf{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1)}
 .btn.mp-grande{font-size:18px;padding:16px 28px;border-radius:16px;background:linear-gradient(90deg,#009ee3,#005f9e);box-shadow:0 10px 32px -10px #009ee3}
 .btn.mp-grande:hover{filter:brightness(1.06)}
