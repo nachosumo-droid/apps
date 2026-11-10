@@ -154,6 +154,8 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 @media(max-width:760px){.pp-guia{grid-template-columns:1fr}}
 
 
+.tag.wa{background:#128C7E;color:#fff;font-weight:700}
+
 /* === ventas UI (v-ventas) === */
 .grid-dest{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:18px 0 28px}
 @media(max-width:900px){.grid-dest{grid-template-columns:repeat(2,1fr)}}
