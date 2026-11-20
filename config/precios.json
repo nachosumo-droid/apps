@@ -338,6 +338,17 @@
       ],
       "venta": true,
       "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/nacer-v1.7.5-web"
+    },
+    {
+      "id": "sumoretro",
+      "nombre": "SumoRetro",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.sumoretro",
+        "ar.nacho.sumoretro.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.0-web/SumoRetro-1.0.0-web.apk"
     }
   ]
 }

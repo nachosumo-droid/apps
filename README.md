@@ -69,6 +69,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.3.0-web/BurakoSumoGame-1.3.0-web.apk) (v1.3.0) · [página](https://nachosumo-droid.github.io/apps/apps/burako-sumogame.html)
 - **💾 SumoDOS** v1.0.1 — Emulador de MS-DOS a pantalla completa: arranca en un Norton Commander azul y amarillo, se ajusta solo al equipo y abre .EXE, ZIP e ISO.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumodos-v1.0.1-web/SumoDOS-1.0.1-web.apk) (v1.0.1) · [página](https://nachosumo-droid.github.io/apps/apps/sumodos.html)
+- **🎮 SumoRetro** v1.0.0 — Emulador de NES, Super Nintendo y Mega Drive: se ajusta solo a tu equipo, con control táctil por consola y juegos homebrew desde la app.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.0-web/SumoRetro-1.0.0-web.apk) (v1.0.0) · [página](https://nachosumo-droid.github.io/apps/apps/sumoretro.html)
 
 ## Juegos
 
