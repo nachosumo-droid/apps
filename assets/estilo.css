@@ -201,6 +201,10 @@ header .w{min-width:0}nav{flex-wrap:nowrap;min-width:0}nav a{white-space:nowrap;
 .card.venta.destacada p.corto{font-size:15px}
 .card.venta.destacada .ico{width:52px;height:52px}
 .card.venta.destacada .btns .btn{padding:13px 10px;font-size:14px}
+.incluye{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px;font-size:13px;line-height:1.2}
+.incluye b{color:#ffd84d;font-weight:800;margin-right:2px}
+.incluye span{padding:5px 9px;border-radius:999px;background:rgba(255,216,77,.14);border:1px solid rgba(255,216,77,.45);color:#ffe9a3;font-weight:600;white-space:nowrap}
+html[data-tema="claro"] .incluye b{color:#8a5a00}html[data-tema="claro"] .incluye span{background:#fff4c2;border-color:#e0b100;color:#5a3d00}
 /* Móvil: hero más compacto para que los launchers se vean enseguida, y header sin desbordar */
 @media(max-width:600px){
   .hero{padding:18px 18px 22px;gap:14px}

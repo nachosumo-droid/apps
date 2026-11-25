@@ -33,9 +33,19 @@
 (()=>{
  if(location.protocol!=="https:")return;
  const ep="https://licencias-apps.nachosumo.workers.dev/api/evento";
+ // Canal de origen (?ref=x, fb, ig, wa, li…): se guarda en este navegador (localStorage, sin cookies) 30 días, sólo el nombre del canal.
+ let ref="";
+ try{
+  const q=(new URLSearchParams(location.search).get("ref")||"").toLowerCase();
+  const ok=/^[a-z0-9_-]{1,32}$/.test(q);
+  const g=JSON.parse(localStorage.getItem("ss_ref")||"null");
+  if(g&&g.r&&Date.now()-g.t<2592e6)ref=g.r;
+  else if(ok){ref=q;localStorage.setItem("ss_ref",JSON.stringify({r:q,t:Date.now()}))}
+  if(ok)sessionStorage.setItem("ss_ref_ses",q);
+ }catch(e){}
  const enviar=(evento,app)=>{
   if(!app||!/^[a-z0-9_-]{1,48}$/.test(app))return;
-  const body=JSON.stringify({evento,app});
+  const body=JSON.stringify(ref?{evento,app,ref}:{evento,app});
   if(navigator.sendBeacon){try{if(navigator.sendBeacon(ep,new Blob([body],{type:"text/plain"})))return}catch(e){}}
   fetch(ep,{method:"POST",headers:{"Content-Type":"text/plain"},body,keepalive:true,mode:"cors"}).catch(()=>{});
  };
