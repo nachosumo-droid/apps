@@ -2,9 +2,103 @@
 <title>Contacto — SumoSoft</title><meta name="description" content="Contacto de SumoSoft: consultas, problemas con una licencia o pedidos de reembolso."><meta name="theme-color" content="#070b16"><meta name="color-scheme" content="dark light"><link rel="canonical" href="https://nachosumo-droid.github.io/apps/contacto.html"><meta property="og:type" content="website"><meta property="og:site_name" content="SumoSoft"><meta property="og:locale" content="es_AR"><meta property="og:title" content="Contacto — SumoSoft"><meta property="og:description" content="Contacto de SumoSoft: consultas, problemas con una licencia o pedidos de reembolso."><meta property="og:url" content="https://nachosumo-droid.github.io/apps/contacto.html"><meta property="og:image" content="https://nachosumo-droid.github.io/apps/img/marca/og-image.png?v=3"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Contacto — SumoSoft"><meta name="twitter:image" content="https://nachosumo-droid.github.io/apps/img/marca/og-image.png?v=3"><link rel="icon" type="image/png" sizes="32x32" href="./img/marca/favicon-32.png?v=3"><link rel="apple-touch-icon" href="./img/marca/apple-touch-icon.png?v=3"><script>try{var t=localStorage.getItem("tema");if(!t)t=matchMedia("(prefers-color-scheme: light)").matches?"claro":"oscuro";document.documentElement.dataset.tema=t}catch(e){}</script>
 <link rel="stylesheet" href="./assets/estilo.css?v=12"><link rel="icon" type="image/svg+xml" href="./img/marca/icono.svg?v=3"></head><body>
 <a class="saltar" href="#contenido">Saltar al contenido</a><header><div class="w"><a class="logo" href="./index.html" aria-label="SumoSoft, inicio"><img src="./img/marca/icono.svg?v=3" alt="" width="34" height="34"><span>Sumo<b>Soft</b></span></a><nav aria-label="Principal"><a href="./index.html#apps">Apps</a><a class="oc" href="./index.html#confianza">Por qué nosotros</a><a href="./instalar.html">Cómo instalar</a><a href="./faq.html">Preguntas</a><a class="oc" href="./contacto.html">Contacto</a><button class="tema" type="button" aria-label="Cambiar tema">☀</button></nav></div></header>
-<main id="contenido"><div class="doc w"><h1>Contacto</h1><p>¿Consultas, problemas con una licencia o un pedido de reembolso? Escribinos:</p>
-<p><a class="btn pri" href="https://github.com/nachosumo-droid/apps/issues/new">Abrir una consulta en GitHub</a></p>
+<main id="contenido"><div class="doc w"><h1>Contacto</h1><p>¿Consultas, problemas con una licencia o un pedido de reembolso? Completá el formulario y te respondemos por mail o WhatsApp.</p>
+<form class="form-arrep box" id="form-contacto" novalidate>
+<label for="c-nombre">Nombre</label>
+<input id="c-nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre">
+<label for="c-email">Correo electrónico</label>
+<input id="c-email" name="email" type="email" required autocomplete="email" placeholder="Para responderte">
+<label for="c-tel">WhatsApp o teléfono (opcional)</label>
+<input id="c-tel" name="telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder="Ej. 11 1234 5678">
+<label for="c-app">App (si aplica)</label>
+<select id="c-app" name="app"><option value="">Elegí la app, o dejalo vacío</option>
+<option value="Launcher TV">Launcher TV</option>
+<option value="Launcher TV Lite">Launcher TV Lite</option>
+<option value="IPTV Público">IPTV Público</option>
+<option value="Burako SumoGame">Burako SumoGame</option>
+<option value="Truco Argento">Truco Argento</option>
+<option value="SumoDOS">SumoDOS</option>
+<option value="Explorador Sumo">Explorador Sumo</option>
+<option value="VozATexto">VozATexto</option>
+<option value="TouchPad">TouchPad</option>
+<option value="AndroidTV Control">AndroidTV Control</option>
+<option value="Consola TV">Consola TV</option>
+<option value="Mesa">Mesa</option>
+<option value="CamaraIP">CamaraIP</option>
+<option value="Launcher Cel">Launcher Cel</option>
+<option value="Barrido Turbo">Barrido Turbo</option>
+<option value="Espacio Libre">Espacio Libre</option>
+<option value="Batería Sana">Batería Sana</option>
+<option value="Ajustes Ocultos Fácil">Ajustes Ocultos Fácil</option>
+<option value="Mirada Amiga">Mirada Amiga</option>
+<option value="Anti Estafa">Anti Estafa</option>
+<option value="Celu para Abuelos">Celu para Abuelos</option>
+<option value="Lista del Súper Compartida">Lista del Súper Compartida</option>
+<option value="Vencimientos">Vencimientos</option>
+<option value="Wi-Fi Fácil">Wi-Fi Fácil</option>
+<option value="Sumo Play">Sumo Play</option>
+<option value="Retoca IA">Retoca IA</option>
+<option value="Agenda Digital 90s">Agenda Digital 90s</option>
+<option value="Gordi">Gordi</option>
+<option value="Gordi Adultos">Gordi Adultos</option>
+<option value="Nacer">Nacer</option>
+<option value="SumoRetro">SumoRetro</option>
+<option value="Sumo PDF">Sumo PDF</option>
+<option value="Otra / no sé">Otra / no sé</option></select>
+<label for="c-codigo">Código de compra (si lo tenés)</label>
+<input id="c-codigo" name="codigo" autocomplete="off" placeholder="Ej. ABCD-EFGH-IJKL" spellcheck="false">
+<label for="c-msg">Mensaje</label>
+<textarea id="c-msg" name="mensaje" required placeholder="Contanos qué pasó. Si es un pago, podés incluir el código acá: llega en privado."></textarea>
+<div class="hp" aria-hidden="true">
+<label for="c-web">Sitio web</label>
+<input id="c-web" name="website" type="text" tabindex="-1" autocomplete="off">
+</div>
+<button class="btn pri" type="submit" id="c-enviar">Enviar mensaje</button>
+<p id="contacto-ok" class="aviso" hidden>Recibimos tu mensaje. Te vamos a responder a la brevedad por mail o WhatsApp.</p>
+<p id="contacto-err" class="aviso" hidden></p>
+</form>
+<style>.hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}</style>
+<p>Si preferís, también podés <a href="https://github.com/nachosumo-droid/apps/issues/new">abrir una consulta en GitHub</a>. No publiques tu código de compra ni datos personales en una consulta pública.</p>
 <p hidden>Correo: <a data-email href="#"></a></p>
-<p class="aviso">No publiques tu código de compra ni datos personales en una consulta pública. Si tu consulta es sobre un pago, indicá sólo la app y la fecha; te vamos a pedir el resto por un canal privado.</p><p style="color:var(--txt2);font-size:14px;margin-top:40px">Última actualización: octubre de 2026.</p></div></main>
+<p class="aviso">En este formulario sí podés incluir tu código de compra: llega en privado al tablero de SumoSoft. Para un reembolso dentro de los 10 días también está el <a href="./arrepentimiento.html">botón de arrepentimiento</a>.</p>
+<script>
+(function(){
+  const f=document.getElementById("form-contacto");
+  if(!f)return;
+  const ok=document.getElementById("contacto-ok");
+  const err=document.getElementById("contacto-err");
+  const btn=document.getElementById("c-enviar");
+  const ep="https://licencias-apps.nachosumo.workers.dev/api/contacto";
+  f.addEventListener("submit",async function(e){
+    e.preventDefault();
+    ok.hidden=true; err.hidden=true;
+    const body={
+      nombre:document.getElementById("c-nombre").value.trim(),
+      email:document.getElementById("c-email").value.trim(),
+      telefono:document.getElementById("c-tel").value.trim(),
+      app:document.getElementById("c-app").value.trim(),
+      codigo:document.getElementById("c-codigo").value.trim(),
+      mensaje:document.getElementById("c-msg").value.trim(),
+      website:document.getElementById("c-web").value,
+      origen:"contacto"
+    };
+    if(body.nombre.length<2||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email)||body.mensaje.length<10){
+      err.textContent="Completá nombre, un mail válido y un mensaje de al menos 10 letras.";
+      err.hidden=false; return;
+    }
+    btn.disabled=true;
+    try{
+      const r=await fetch(ep,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+      const d=await r.json().catch(()=>({}));
+      if(r.ok&&d.ok){ok.hidden=false;f.reset();}
+      else if(r.status===429){err.textContent=d.mensaje||"Esperá un rato y volvé a intentar.";err.hidden=false;}
+      else {err.textContent=d.mensaje||"No se pudo enviar. Probá de nuevo o escribinos a nachosumo@gmail.com.";err.hidden=false;}
+    }catch(ex){
+      err.textContent="No se pudo enviar. Revisá la conexión y probá de nuevo.";
+      err.hidden=false;
+    }finally{btn.disabled=false;}
+  });
+})();
+</script><p style="color:var(--txt2);font-size:14px;margin-top:40px">Última actualización: octubre de 2026.</p></div></main>
 <footer><div class="w"><div class="pie"><div><a class="logo" href="./index.html"><img src="./img/marca/icono.svg?v=3" alt="" width="34" height="34"><span>Sumo<b>Soft</b></span></a><p style="margin:0;max-width:340px">Apps para Android TV y celular, pensadas para el control remoto y hechas en Argentina.</p></div><div><h4>Sitio</h4><a href="./index.html#apps">Apps</a><a href="./instalar.html">Cómo instalar</a><a href="./faq.html">Preguntas frecuentes</a><a href="./contacto.html">Contacto</a></div><div><h4>Legal</h4><a href="./privacidad.html">Privacidad</a><a href="./terminos.html">Términos</a><a href="./reembolsos.html">Reembolsos</a></div></div><div class="arrep-foot"><a class="arrep-link" href="./arrepentimiento.html">Botón de arrepentimiento</a><p class="arrep-trust">Pago seguro · Podés arrepentirte dentro de los 10 días</p></div><div class="legal"><span>© 2026 SumoSoft</span><span>Pagos procesados por Mercado Pago</span></div><p class="credito" style="margin:14px 0 0;font-size:12px;color:var(--txt2);opacity:.8">SumoSoft by Jiav (Buenos Aires, Argentina)</p></div></footer>
-<script src="./assets/sitio.js?v=17" defer></script><script src="./assets/marca.js?v=12" defer></script></body></html>
+<script src="./assets/sitio.js?v=18" defer></script><script src="./assets/marca.js?v=12" defer></script></body></html>
