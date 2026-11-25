@@ -19,8 +19,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 - **🎙️ VozATexto** v1.2.5 — Transcripción y subtítulos en vivo, sin internet.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/vozatexto-v1.2.5-web/VozATexto-celular-1.2.5-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/vozatexto-v1.2.5-web/VozATexto-TV-1.2.5-web.apk) (v1.2.5) · [página](https://nachosumo-droid.github.io/apps/apps/vozatexto.html)
-- **🖱️ TouchPad** v1.4.0 — Usá el celular como panel táctil, mouse y teclado del TV.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.0-web/TouchPad-celular-1.4.0-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.0-web/TouchPad-TV-1.4.0.apk) (v1.4.0) · [página](https://nachosumo-droid.github.io/apps/apps/touchpad.html)
+- **🖱️ TouchPad** v1.4.1 — Usá el celular como panel táctil, mouse y teclado del TV.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.1-web/TouchPad-celular-1.4.1-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.1-web/TouchPad-TV-1.4.0.apk) (v1.4.1) · [página](https://nachosumo-droid.github.io/apps/apps/touchpad.html)
 - **🎮 AndroidTV Control** v1.1.5 — Controlá y limpiá tu Android TV desde el celular.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.5-web/AndroidTV-AutoLimpieza-TV-1.1.1.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.5-web/AndroidTV-Control-celular-1.1.5-web.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/androidtv-control.html)
 - **⌨️ Consola TV** v1.1.5 — Terminal y ajustes avanzados para Android TV, manejables con el control.  
