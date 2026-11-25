@@ -1,17 +1,79 @@
 // Precios y botón Comprar: todo sale de config/precios.json (fuente única).
 (async()=>{
  const raiz=document.documentElement.dataset.raiz||".";
- let cfg; try{cfg=await (await fetch(raiz+"/config/precios.json",{cache:"no-cache"})).json()}catch(e){return}
+ const aviso=(t)=>{const m=document.getElementById("msg-compra");if(!m)return;m.hidden=false;m.textContent=t;try{m.scrollIntoView({block:"nearest",behavior:"smooth"})}catch(e){}};
+ const devId=pkg=>{
+  const k="ss_dev:"+pkg;
+  try{const g=localStorage.getItem(k);if(g&&/^[a-f0-9]{32,64}$/.test(g))return g}catch(e){}
+  const b=crypto.getRandomValues(new Uint8Array(16));
+  const id=[...b].map(x=>x.toString(16).padStart(2,"0")).join("");
+  try{localStorage.setItem(k,id)}catch(e){}
+  return id;
+ };
+ let cfg; try{cfg=await (await fetch(raiz+"/config/precios.json",{cache:"no-cache"})).json()}catch(e){
+  for(const b of document.querySelectorAll("[data-comprar]")) b.addEventListener("click",ev=>{ev.preventDefault();aviso("No se pudieron cargar los datos de compra. Recargá la página y probá de nuevo.")});
+  return;
+ }
  const fmt=n=>"$ "+Number(n).toLocaleString("es-AR")+" ARS";
  for(const el of document.querySelectorAll("[data-precio]")){const a=cfg.apps.find(x=>x.id===el.dataset.precio);if(a)el.innerHTML=fmt(a.precioARS)+' <small>pago único · provisorio</small>'}
  for(const el of document.querySelectorAll("[data-descarga]")){const a=cfg.apps.find(x=>x.id===el.dataset.descarga);if(a&&a.descarga){el.href=a.descarga;el.removeAttribute("aria-disabled");if(!el.querySelector(".btn-sub")){const t=(el.querySelector(".btn-txt")?el.querySelector(".btn-txt").textContent:el.textContent).trim()||"⬇ Descargar";el.classList.add("btn-prueba");el.innerHTML='<span class="btn-txt">'+t+'</span><span class="btn-sub">Prueba gratis de 7 días · después comprás si te gusta</span>'}}}
  if(cfg.contacto&&cfg.contacto.email)for(const el of document.querySelectorAll("[data-email]")){el.href="mailto:"+cfg.contacto.email;el.textContent=cfg.contacto.email;el.parentElement.hidden=false}
+ if(/gracias\.html$/.test(location.pathname.replace(/\/+$/,""))){
+  const box=document.querySelector("main .doc")||document.querySelector("main");
+  const q=new URLSearchParams(location.search);
+  const ok=/^(approved|success)$/i.test(q.get("status")||"")||/^(approved|success)$/i.test(q.get("collection_status")||"");
+  const mostrar=cod=>{
+   if(!box||!cod)return;
+   let p=document.getElementById("codigo-compra");
+   if(!p){p=document.createElement("p");p.id="codigo-compra";p.className="aviso";box.appendChild(p)}
+   p.textContent="";
+   p.append("Tu código de compra es ");
+   const b=document.createElement("b");b.textContent=cod;p.append(b);
+   p.append(". Si la app no se activa sola, abrila y en «Activar» ingresá este código.");
+  };
+  try{
+   const c=JSON.parse(localStorage.getItem("ss_checkout")||"null");
+   const srv=(cfg.servidorLicencias||"").replace(/\/$/,"");
+   if(c&&c.app&&c.device_id&&srv&&ok){
+    let n=0;
+    const tick=async()=>{
+     n++;
+     try{
+      const r=await fetch(srv+"/api/licencia",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({app:c.app,device_id:c.device_id})});
+      const d=await r.json();
+      if(d&&d.encontrada&&d.codigo){clearInterval(t);mostrar(d.codigo);return}
+     }catch(e){}
+     if(n>=15)clearInterval(t);
+    };
+    const t=setInterval(tick,2000);tick();
+   }
+  }catch(e){}
+ }
  for(const b of document.querySelectorAll("[data-comprar]")){
-  b.addEventListener("click",e=>{e.preventDefault();const m=document.getElementById("msg-compra");
+  b.addEventListener("click",async ev=>{
+   ev.preventDefault();
+   if(b.dataset.busy)return;
    const a=cfg.apps.find(x=>x.id===b.dataset.comprar);
-   m.hidden=false;m.textContent=(cfg.ventasActivas&&a&&a.venta)
-    ?"Para comprar: instalá la prueba gratis, abrí la app y elegí «Activar» → «Comprar con Mercado Pago». La licencia queda atada a tu equipo y se activa sola al pagar."
-    :"Esta app todavía no está a la venta. Muy pronto vas a poder probarla y comprarla desde acá."})}
+   if(!(cfg.ventasActivas&&a&&a.venta)){aviso("Esta app todavía no está a la venta. Muy pronto vas a poder probarla y comprarla desde acá.");return}
+   const pkgs=a.paquetes||[];
+   const pkg=pkgs.find(p=>/\.web$/.test(p))||pkgs[0];
+   const srv=(cfg.servidorLicencias||"").replace(/\/$/,"");
+   const dev=pkg&&devId(pkg);
+   if(!pkg||!srv||!dev){aviso("No se pudo iniciar el pago. Probá de nuevo o comprá desde la app en «Activar».");return}
+   b.dataset.busy="1";
+   aviso("Abriendo Mercado Pago…");
+   try{
+    let canal="";
+    try{const g=JSON.parse(localStorage.getItem("ss_ref")||"null");if(g&&g.r)canal=g.r}catch(e){}
+    try{localStorage.setItem("ss_checkout",JSON.stringify({app:pkg,device_id:dev,id:a.id,t:Date.now()}))}catch(e){}
+    const r=await fetch(srv+"/api/checkout",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(canal?{app:pkg,device_id:dev,ref:canal}:{app:pkg,device_id:dev})});
+    const d=await r.json().catch(()=>({}));
+    if(r.ok&&d.init_point){location.href=d.init_point;return}
+    aviso(d.mensaje||"No se pudo abrir Mercado Pago. Probá de nuevo o comprá desde la app en «Activar».");
+   }catch(e){aviso("No se pudo abrir Mercado Pago. Revisá la conexión y probá de nuevo.")}
+   finally{delete b.dataset.busy}
+  });
+ }
 })();
 // Visor de capturas ampliadas (lightbox) — imágenes HD, Esc/flechas/deslizar, accesible
 (()=>{const ls=[...document.querySelectorAll("a.lb")];if(!ls.length)return;
