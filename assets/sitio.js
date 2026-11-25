@@ -29,3 +29,26 @@
  d.addEventListener("touchstart",e=>{x0=e.touches.length===1?e.touches[0].clientX:null},{passive:true});
  d.addEventListener("touchend",e=>{if(x0===null||(window.visualViewport&&visualViewport.scale>1.05))return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50)ver(i+(dx<0?1:-1));x0=null});
 })();
+// Contadores anónimos y sin cookies (sólo totales diarios por página/botón en el servidor de licencias).
+(()=>{
+ if(location.protocol!=="https:")return;
+ const ep="https://licencias-apps.nachosumo.workers.dev/api/evento";
+ const enviar=(evento,app)=>{
+  if(!app||!/^[a-z0-9_-]{1,48}$/.test(app))return;
+  const body=JSON.stringify({evento,app});
+  if(navigator.sendBeacon){try{if(navigator.sendBeacon(ep,new Blob([body],{type:"text/plain"})))return}catch(e){}}
+  fetch(ep,{method:"POST",headers:{"Content-Type":"text/plain"},body,keepalive:true,mode:"cors"}).catch(()=>{});
+ };
+ const p=location.pathname.replace(/\/+$/,"");
+ let pag="home";
+ const m=p.match(/\/apps\/([a-z0-9-]+)\.html$/);
+ if(m)pag=m[1];
+ else{const d=p.match(/\/([a-z0-9-]+)\.html$/);if(d&&d[1]!=="index")pag=d[1];}
+ enviar("vista",pag);
+ document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-comprar]");
+  if(c){enviar("clic_comprar",c.dataset.comprar);return}
+  const d=e.target.closest("[data-descarga], .descargas a[href], a[download][href]");
+  if(d){const id=d.dataset.descarga||(m?m[1]:"");if(id)enviar("clic_probar",id);return}
+ },{passive:true});
+})();
