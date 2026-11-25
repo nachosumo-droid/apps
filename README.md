@@ -19,8 +19,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 
 - **🎙️ VozATexto** v1.2.5 — Transcripción y subtítulos en vivo, sin internet.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/vozatexto-v1.2.5-web/VozATexto-celular-1.2.5-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/vozatexto-v1.2.5-web/VozATexto-TV-1.2.5-web.apk) (v1.2.5) · [página](https://nachosumo-droid.github.io/apps/apps/vozatexto.html)
-- **🖱️ TouchPad** v1.4.1 — Usá el celular como panel táctil, mouse y teclado del TV.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.1-web/TouchPad-celular-1.4.1-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.1-web/TouchPad-TV-1.4.0.apk) (v1.4.1) · [página](https://nachosumo-droid.github.io/apps/apps/touchpad.html)
+- **🖱️ TouchPad** v1.4.2 — Usá el celular como panel táctil, mouse y teclado del TV.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.2-web/TouchPad-celular-1.4.2-web.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/touchpad-v1.4.2-web/TouchPad-TV-1.4.1.apk) (v1.4.2) · [página](https://nachosumo-droid.github.io/apps/apps/touchpad.html)
 - **🎮 AndroidTV Control** v1.1.5 — Controlá y limpiá tu Android TV desde el celular.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.5-web/AndroidTV-AutoLimpieza-TV-1.1.1.apk) · [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/androidtv-control-v1.1.5-web/AndroidTV-Control-celular-1.1.5-web.apk) (v1.1.5) · [página](https://nachosumo-droid.github.io/apps/apps/androidtv-control.html)
 - **⌨️ Consola TV** v1.1.5 — Terminal y ajustes avanzados para Android TV, manejables con el control.  
@@ -69,8 +69,8 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.3.0-web/BurakoSumoGame-1.3.0-web.apk) (v1.3.0) · [página](https://nachosumo-droid.github.io/apps/apps/burako-sumogame.html)
 - **💾 SumoDOS** v1.0.1 — Emulador de MS-DOS a pantalla completa: arranca en un explorador de dos paneles estilo clásico, azul y amarillo, se ajusta solo al equipo y abre .EXE, ZIP e ISO.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumodos-v1.0.1-web/SumoDOS-1.0.1-web.apk) (v1.0.1) · [página](https://nachosumo-droid.github.io/apps/apps/sumodos.html)
-- **🎮 SumoRetro** v1.0.1 — Emulador de NES, Super Nintendo y Mega Drive: se ajusta solo a tu equipo, con control táctil por consola y juegos homebrew desde la app.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.1-web/SumoRetro-1.0.1-web.apk) (v1.0.1) · [página](https://nachosumo-droid.github.io/apps/apps/sumoretro.html)
+- **🎮 SumoRetro** v1.0.2 — Emulador de NES, Super Nintendo y Mega Drive: se ajusta solo a tu equipo, con control táctil por consola y juegos homebrew desde la app.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.2-web/SumoRetro-1.0.2-web.apk) (v1.0.2) · [página](https://nachosumo-droid.github.io/apps/apps/sumoretro.html)
 - **📄 Sumo PDF** v1.0.0 — Lector y editor de PDF: abrí cualquier PDF, buscá, seleccioná y copiá texto, resaltá, firmá, completá formularios, organizá páginas y exportá a TXT.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumopdf-v1.0.0-web/SumoPDF-1.0.0-web.apk) (v1.0.0) · [página](https://nachosumo-droid.github.io/apps/apps/sumopdf.html)
 

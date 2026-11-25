@@ -103,7 +103,7 @@
         "ar.nacho.touchpad.tv"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/touchpad-v1.4.1-web"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/tag/touchpad-v1.4.2-web"
     },
     {
       "id": "androidtv-control",
@@ -348,7 +348,7 @@
         "ar.nacho.sumoretro.web"
       ],
       "venta": true,
-      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.1-web/SumoRetro-1.0.1-web.apk"
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.2-web/SumoRetro-1.0.2-web.apk"
     },
     {
       "id": "sumopdf",
