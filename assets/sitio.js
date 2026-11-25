@@ -19,35 +19,40 @@
  for(const el of document.querySelectorAll("[data-descarga]")){const a=cfg.apps.find(x=>x.id===el.dataset.descarga);if(a&&a.descarga){el.href=a.descarga;el.removeAttribute("aria-disabled");if(!el.querySelector(".btn-sub")){const t=(el.querySelector(".btn-txt")?el.querySelector(".btn-txt").textContent:el.textContent).trim()||"⬇ Descargar";el.classList.add("btn-prueba");el.innerHTML='<span class="btn-txt">'+t+'</span><span class="btn-sub">Prueba gratis de 7 días · después comprás si te gusta</span>'}}}
  if(cfg.contacto&&cfg.contacto.email)for(const el of document.querySelectorAll("[data-email]")){el.href="mailto:"+cfg.contacto.email;el.textContent=cfg.contacto.email;el.parentElement.hidden=false}
  if(/gracias\.html$/.test(location.pathname.replace(/\/+$/,""))){
-  const box=document.querySelector("main .doc")||document.querySelector("main");
   const q=new URLSearchParams(location.search);
   const ok=/^(approved|success)$/i.test(q.get("status")||"")||/^(approved|success)$/i.test(q.get("collection_status")||"");
+  let c=null; try{c=JSON.parse(localStorage.getItem("ss_checkout")||"null")}catch(e){}
+  const ext=(q.get("external_reference")||"").split("|");
+  const pkg=(c&&c.app)||ext[0]||"";
+  const dev=(c&&c.device_id)||(/^[a-f0-9]{32,64}$/.test(ext[1]||"")?ext[1]:"");
+  const a=(c&&c.id&&cfg.apps.find(x=>x.id===c.id))||(pkg&&cfg.apps.find(x=>(x.paquetes||[]).includes(pkg)));
+  const btn=document.getElementById("descarga-compra");
+  if(btn){
+   if(a&&a.descarga){btn.href=a.descarga;btn.setAttribute("download","");btn.hidden=false;btn.textContent="⬇ Descargar "+a.nombre}
+   else{btn.href="index.html#apps";btn.hidden=false;btn.textContent="⬇ Ir a las apps para descargar";btn.removeAttribute("download")}
+  }
   const mostrar=cod=>{
-   if(!box||!cod)return;
-   let p=document.getElementById("codigo-compra");
-   if(!p){p=document.createElement("p");p.id="codigo-compra";p.className="aviso";box.appendChild(p)}
-   p.textContent="";
+   const p=document.getElementById("codigo-compra");
+   if(!p||!cod)return;
+   p.hidden=false;p.textContent="";
    p.append("Tu código de compra es ");
    const b=document.createElement("b");b.textContent=cod;p.append(b);
-   p.append(". Si la app no se activa sola, abrila y en «Activar» ingresá este código.");
+   p.append(". Ingresalo en la app, en «Activar».");
   };
-  try{
-   const c=JSON.parse(localStorage.getItem("ss_checkout")||"null");
-   const srv=(cfg.servidorLicencias||"").replace(/\/$/,"");
-   if(c&&c.app&&c.device_id&&srv&&ok){
-    let n=0;
-    const tick=async()=>{
-     n++;
-     try{
-      const r=await fetch(srv+"/api/licencia",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({app:c.app,device_id:c.device_id})});
-      const d=await r.json();
-      if(d&&d.encontrada&&d.codigo){clearInterval(t);mostrar(d.codigo);return}
-     }catch(e){}
-     if(n>=15)clearInterval(t);
-    };
-    const t=setInterval(tick,2000);tick();
-   }
-  }catch(e){}
+  const srv=(cfg.servidorLicencias||"").replace(/\/$/,"");
+  if(pkg&&dev&&srv&&ok){
+   let n=0;
+   const tick=async()=>{
+    n++;
+    try{
+     const r=await fetch(srv+"/api/licencia",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({app:pkg,device_id:dev})});
+     const d=await r.json();
+     if(d&&d.encontrada&&d.codigo){clearInterval(t);mostrar(d.codigo);return}
+    }catch(e){}
+    if(n>=15)clearInterval(t);
+   };
+   const t=setInterval(tick,2000);tick();
+  }
  }
  for(const b of document.querySelectorAll("[data-comprar]")){
   b.addEventListener("click",async ev=>{
