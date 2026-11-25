@@ -276,3 +276,9 @@ footer .arrep-trust{margin:0;font-size:12px;line-height:1.45;color:var(--txt2);m
   footer .arrep-trust{text-align:center;max-width:100%;padding:0 4px}
   footer .pie .arrep-link{display:none}
 }
+
+/* === etiqueta prueba 7 dias (v-prueba) === */
+.btn.pri.btn-prueba{flex-direction:column;align-items:center;justify-content:center;gap:3px;text-align:center;white-space:normal;line-height:1.25;padding:12px 20px}
+.btn.pri.btn-prueba .btn-txt{display:block;font-weight:600}
+.btn.pri.btn-prueba .btn-sub{display:block;font-size:12.5px;font-weight:500;line-height:1.3;opacity:.9;color:#fff}
+[data-tema=claro] .btn.pri.btn-prueba .btn-sub{color:#fff;opacity:.95}

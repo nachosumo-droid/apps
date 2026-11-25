@@ -4,7 +4,7 @@
  let cfg; try{cfg=await (await fetch(raiz+"/config/precios.json",{cache:"no-cache"})).json()}catch(e){return}
  const fmt=n=>"$ "+Number(n).toLocaleString("es-AR")+" ARS";
  for(const el of document.querySelectorAll("[data-precio]")){const a=cfg.apps.find(x=>x.id===el.dataset.precio);if(a)el.innerHTML=fmt(a.precioARS)+' <small>pago único · provisorio</small>'}
- for(const el of document.querySelectorAll("[data-descarga]")){const a=cfg.apps.find(x=>x.id===el.dataset.descarga);if(a&&a.descarga){el.href=a.descarga;el.removeAttribute("aria-disabled");el.textContent="⬇ Descargar prueba gratis (7 días)"}}
+ for(const el of document.querySelectorAll("[data-descarga]")){const a=cfg.apps.find(x=>x.id===el.dataset.descarga);if(a&&a.descarga){el.href=a.descarga;el.removeAttribute("aria-disabled");if(!el.querySelector(".btn-sub")){const t=(el.querySelector(".btn-txt")?el.querySelector(".btn-txt").textContent:el.textContent).trim()||"⬇ Descargar";el.classList.add("btn-prueba");el.innerHTML='<span class="btn-txt">'+t+'</span><span class="btn-sub">Prueba gratis de 7 días · después comprás si te gusta</span>'}}}
  if(cfg.contacto&&cfg.contacto.email)for(const el of document.querySelectorAll("[data-email]")){el.href="mailto:"+cfg.contacto.email;el.textContent=cfg.contacto.email;el.parentElement.hidden=false}
  for(const b of document.querySelectorAll("[data-comprar]")){
   b.addEventListener("click",e=>{e.preventDefault();const m=document.getElementById("msg-compra");
