@@ -72,7 +72,7 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 - **🎮 SumoRetro** v1.0.2 — Emulador de NES, Super Nintendo y Mega Drive: se ajusta solo a tu equipo, con control táctil por consola y juegos homebrew desde la app.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.2-web/SumoRetro-1.0.2-web.apk) (v1.0.2) · [página](https://nachosumo-droid.github.io/apps/apps/sumoretro.html)
 - **📄 Sumo PDF** v1.0.0 — Lector y editor de PDF: abrí cualquier PDF, buscá, seleccioná y copiá texto, resaltá, firmá, completá formularios, organizá páginas y exportá a TXT.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumopdf-v1.0.0-web/SumoPDF-1.0.0-web.apk) (v1.0.0) · [página](https://nachosumo-droid.github.io/apps/apps/sumopdf.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumopdf-v1.0.1-web/SumoPDF-1.0.1-web.apk) (v1.0.1) · [página](https://nachosumo-droid.github.io/apps/apps/sumopdf.html)
 
 ## Juegos
 

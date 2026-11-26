@@ -37,7 +37,7 @@
    p.hidden=false;p.textContent="";
    p.append("Tu código de compra es ");
    const b=document.createElement("b");b.textContent=cod;p.append(b);
-   p.append(". Ingresalo en la app, en «Activar».");
+   p.append(". Ingresalo en la app, en «Ya compré: activar licencia» (no hace falta esperar a que termine la prueba).");
   };
   const srv=(cfg.servidorLicencias||"").replace(/\/$/,"");
   if(pkg&&dev&&srv&&ok){
