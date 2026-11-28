@@ -360,6 +360,17 @@
       ],
       "venta": true,
       "descarga": "https://github.com/nachosumo-droid/apps/releases/download/sumopdf-v1.0.1-web/SumoPDF-1.0.1-web.apk"
+    },
+    {
+      "id": "sumoclip",
+      "nombre": "SumoClip",
+      "precioARS": 4999,
+      "paquetes": [
+        "ar.nacho.sumoclip",
+        "ar.nacho.sumoclip.web"
+      ],
+      "venta": true,
+      "descarga": "https://github.com/nachosumo-droid/apps/releases/download/sumoclip-v1.0.0-web/SumoClip-1.0.0-web.apk"
     }
   ]
 }

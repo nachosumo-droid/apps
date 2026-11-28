@@ -9,11 +9,11 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 - **📺 Launcher TV** v1.3.5 — Una pantalla de inicio estilo Google TV, rápida y completa para tu TV box.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-v1.3.5-web/LauncherTV-1.3.5-web.apk) (v1.3.5) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv.html)
 - **🪶 Launcher TV Lite** v1.2.5 — Todas las funciones de Launcher TV, optimizado para equipos de 1 GB de RAM.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.2.5-web/LauncherTV-Lite-1.2.5-web.apk) (v1.2.6) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-tv-lite-v1.2.5-web/LauncherTV-Lite-1.2.5-web.apk) (v1.2.5) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-tv-lite.html)
 - **📡 IPTV Público** v2.2.7 — Miles de canales públicos y gratuitos. En el celular: gestos y Enviar a la tele (Chromecast o DLNA).  
-  [⬇ APK TV](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.7-web/IPTV-Publico-2.2.7-web.apk) (v2.2.7) · [⬇ APK celular](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-celu-v2.3.4-web/IPTV-Publico-Celular-2.3.4-web.apk) (v2.3.3) · [página](https://nachosumo-droid.github.io/apps/apps/iptv-publico.html)
+  [⬇ APK TV](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-v2.2.7-web/IPTV-Publico-2.2.7-web.apk) (v2.2.7) · [⬇ APK celular](https://github.com/nachosumo-droid/apps/releases/download/iptv-publico-celu-v2.3.4-web/IPTV-Publico-Celular-2.3.4-web.apk) (v2.3.4) · [página](https://nachosumo-droid.github.io/apps/apps/iptv-publico.html)
 - **📂 Explorador Sumo** v1.0.3 — Explorador de archivos completo para celular y TV: vista simple o doble panel, red, ADB, comprimidos, papelera y bóveda cifrada.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/explorador-sumo-v1.0.3-web/ExploradorSumo-1.0.3-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/explorador-sumo.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/explorador-sumo-v1.0.3-web/ExploradorSumo-1.0.3-web.apk) (v1.0.3) · [página](https://nachosumo-droid.github.io/apps/apps/explorador-sumo.html)
 
 ## Herramientas para TV
 
@@ -35,27 +35,27 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 ## Launcher Cel y utilidades del celular
 
 - **📱 Launcher Cel** v1.0.3 — Pantalla de inicio liviana y familiar para celulares: buscador arriba, reloj, carpetas, dock y extras opcionales.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-cel-v1.0.3-web/LauncherCel-1.0.3-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-cel.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/launcher-cel-v1.0.3-web/LauncherCel-1.0.3-web.apk) (v1.0.3) · [página](https://nachosumo-droid.github.io/apps/apps/launcher-cel.html)
 - **⚡ Barrido Turbo** v1.0.5 — ¿Tu celular anda lento o se traba? Un toque cierra las apps que quedaron abiertas de fondo y borra caché.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/barrido-turbo-v1.0.5-web/BarridoTurbo-1.0.5-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/barrido-turbo.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/barrido-turbo-v1.0.5-web/BarridoTurbo-1.0.5-web.apk) (v1.0.5) · [página](https://nachosumo-droid.github.io/apps/apps/barrido-turbo.html)
 - **🧹 Espacio Libre** v1.0.4 — Encuentra fotos duplicadas, videos pesados de WhatsApp, audios viejos y descargas olvidadas, y los borra sólo cuando vos confirmás.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/espacio-libre-v1.0.4-web/EspacioLibre-1.0.4-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/espacio-libre.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/espacio-libre-v1.0.4-web/EspacioLibre-1.0.4-web.apk) (v1.0.4) · [página](https://nachosumo-droid.github.io/apps/apps/espacio-libre.html)
 - **🔋 Batería Sana** v1.0.5 — Te avisa al 80 % cargando y al 20 %, muestra salud y temperatura, y da consejos simples.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/bateria-sana-v1.0.5-web/BateriaSana-1.0.5-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/bateria-sana.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/bateria-sana-v1.0.5-web/BateriaSana-1.0.5-web.apk) (v1.0.5) · [página](https://nachosumo-droid.github.io/apps/apps/bateria-sana.html)
 - **🧭 Ajustes Ocultos Fácil** v1.0.4 — Un toque y estás en la pantalla de Android que buscabas: opciones de desarrollador, animaciones, batería, apps predeterminadas y más, con una explicación simple.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/ajustes-ocultos-v1.0.4-web/AjustesOcultos-1.0.4-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/ajustes-ocultos.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/ajustes-ocultos-v1.0.4-web/AjustesOcultos-1.0.4-web.apk) (v1.0.4) · [página](https://nachosumo-droid.github.io/apps/apps/ajustes-ocultos.html)
 - **👁️ Mirada Amiga** v1.0.4 — Asistente por voz para personas ciegas o con baja visión: avisa objetos y su distancia, color del semáforo, lee textos y reconoce billetes.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/mirada-amiga-v1.0.4-web/MiradaAmiga-1.0.4-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/mirada-amiga.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/mirada-amiga-v1.0.4-web/MiradaAmiga-1.0.4-web.apk) (v1.0.4) · [página](https://nachosumo-droid.github.io/apps/apps/mirada-amiga.html)
 - **🛡️ Anti Estafa** v1.0.5 — Pegá o compartí un mensaje sospechoso y te explica, en castellano simple, si tiene señales de estafa.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/anti-estafa-v1.0.5-web/AntiEstafa-1.0.5-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/anti-estafa.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/anti-estafa-v1.0.5-web/AntiEstafa-1.0.5-web.apk) (v1.0.5) · [página](https://nachosumo-droid.github.io/apps/apps/anti-estafa.html)
 - **👵 Celu para Abuelos** v1.0.5 — Pantalla de inicio simple: letras grandes, botones para llamar a la familia, emergencia y ajustes con PIN.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/celu-abuelos-v1.0.5-web/CeluParaAbuelos-1.0.5-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/celu-abuelos.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/celu-abuelos-v1.0.5-web/CeluParaAbuelos-1.0.5-web.apk) (v1.0.5) · [página](https://nachosumo-droid.github.io/apps/apps/celu-abuelos.html)
 - **🛒 Lista del Súper Compartida** v1.0.5 — Lista de compras compartida con tu familia o amigos, con precios, total y cuentas divididas.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/lista-super-v1.0.5-web/ListaDelSuper-1.0.5-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/lista-super.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/lista-super-v1.0.5-web/ListaDelSuper-1.0.5-web.apk) (v1.0.5) · [página](https://nachosumo-droid.github.io/apps/apps/lista-super.html)
 - **📅 Vencimientos** v1.0.4 — Te avisa antes de que venzan la luz, el gas, la tarjeta, el monotributo o la VTV, y te sigue avisando hasta que lo marques como pagado.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/vencimientos-v1.0.4-web/Vencimientos-1.0.4-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/vencimientos.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/vencimientos-v1.0.4-web/Vencimientos-1.0.4-web.apk) (v1.0.4) · [página](https://nachosumo-droid.github.io/apps/apps/vencimientos.html)
 - **📶 Wi-Fi Fácil** v1.0.4 — Compartí tu Wi-Fi con un QR, medí la velocidad y mirá qué equipos responden en tu red, con los límites de Android explicados.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/wifi-facil-v1.0.4-web/WiFiFacil-1.0.4-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/wifi-facil.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/wifi-facil-v1.0.4-web/WiFiFacil-1.0.4-web.apk) (v1.0.4) · [página](https://nachosumo-droid.github.io/apps/apps/wifi-facil.html)
 
 ## Otras
 
@@ -68,11 +68,13 @@ Cada app trae 7 días de prueba gratis y licencia de por vida.
 - **🀄 Burako SumoGame** v1.3.1 — El Burako argentino en el celular: fichas grandes, colores alegres, contra la CPU o cara a cara entre dos celulares.  
   [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/burako-sumogame-v1.3.1-web/BurakoSumoGame-1.3.1-web.apk) (v1.3.1) · [página](https://nachosumo-droid.github.io/apps/apps/burako-sumogame.html)
 - **💾 SumoDOS** v1.0.2 — Emulador de MS-DOS a pantalla completa: arranca en un explorador de dos paneles estilo clásico, azul y amarillo, se ajusta solo al equipo y abre .EXE, ZIP e ISO.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumodos-v1.0.2-web/SumoDOS-1.0.2-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/sumodos.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumodos-v1.0.2-web/SumoDOS-1.0.2-web.apk) (v1.0.2) · [página](https://nachosumo-droid.github.io/apps/apps/sumodos.html)
 - **🎮 SumoRetro** v1.0.3 — Emulador de NES, Super Nintendo y Mega Drive: se ajusta solo a tu equipo, con control táctil por consola y juegos homebrew desde la app.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.3-web/SumoRetro-1.0.3-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/sumoretro.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoretro-v1.0.3-web/SumoRetro-1.0.3-web.apk) (v1.0.3) · [página](https://nachosumo-droid.github.io/apps/apps/sumoretro.html)
 - **📄 Sumo PDF** v1.0.1 — Lector y editor de PDF: abrí cualquier PDF, buscá, seleccioná y copiá texto, resaltá, firmá, completá formularios, organizá páginas y exportá a TXT.  
-  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumopdf-v1.0.1-web/SumoPDF-1.0.1-web.apk) (v1.0.6) · [página](https://nachosumo-droid.github.io/apps/apps/sumopdf.html)
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumopdf-v1.0.1-web/SumoPDF-1.0.1-web.apk) (v1.0.1) · [página](https://nachosumo-droid.github.io/apps/apps/sumopdf.html)
+- **🎬 SumoClip** v1.0.0 — Editor de video para el celular: cortá y recortá, uní varios clips, cambiá la velocidad, quitá el audio, aplicá filtros y exportá listo para WhatsApp, Instagram o Reels.  
+  [⬇ APK](https://github.com/nachosumo-droid/apps/releases/download/sumoclip-v1.0.0-web/SumoClip-1.0.0-web.apk) (v1.0.0) · [página](https://nachosumo-droid.github.io/apps/apps/sumoclip.html)
 
 ## Juegos
 
